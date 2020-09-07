@@ -116,9 +116,14 @@
                 display: block;
                 font-weight: normal;
                 text-decoration-color: $primary !important;
+                width: 55%;
 
                 @media #{$breakpoint-lg} {
                     font-size: 14px;
+                }
+
+                @media #{$breakpoint-xs} {
+                    width: auto;
                 }
             }
 

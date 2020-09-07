@@ -2551,10 +2551,14 @@ input:focus {
       color: #ffffff;
       display: block;
       font-weight: normal;
-      text-decoration-color: #E7CF49 !important; }
+      text-decoration-color: #E7CF49 !important;
+      width: 55%; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-footer-widget .our-link li a {
           font-size: 14px; } }
+      @media only screen and (max-width: 767px) {
+        .single-footer-widget .our-link li a {
+          width: auto; } }
     .single-footer-widget .our-link li a:hover {
       text-decoration: underline; }
     .single-footer-widget .our-link li:last-child a {
