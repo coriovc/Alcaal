@@ -1,0 +1,102 @@
+/* 13.0 Service CSS */
+
+.single-service-area {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    .service-icon {
+        background-color: $bg-gray;
+        width: 145px;
+        height: 110px;
+        font-size: 42px;
+        color: $heading;
+        text-align: center;
+        line-height: 110px;
+        border-radius: 80px 200px 200px 362px;
+        margin: 0 auto 30px;
+        @include transition-duration(500ms);
+    }
+
+    h5 {
+        font-size: 22px;
+        display: block;
+        margin-bottom: 15px;
+        @include transition-duration(300ms);
+        font-weight: 600;
+    }
+
+    &:focus,
+    &:hover {
+        .service-icon {
+            background-color: $primary;
+            color: $white;
+            @include box-shadow($box-shadow);
+        }
+
+        h5 {
+            color: $primary;
+        }
+    }
+}
+
+.card-ear{
+        position: relative;
+        background-color: #ffffff;
+        flex-direction: column;
+        min-width: 0;
+        padding: 4% 2% 2% 5%;
+        width: 100%;
+
+      .nl-content {
+        position: relative;
+        z-index: 1;
+
+        h2 {
+            font-size: 40px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $c-gray;
+
+            @media #{$breakpoint-lg} {
+                font-size: 30px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 24px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 24px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 1.5;
+            @media #{$breakpoint-lg} {
+                font-size: 14px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 12px;
+            }
+        }
+      }
+
+    }
+
+.cta-testimonial-cfa-area {
+    position: relative;
+    z-index: 1;
+
+    .cta-testimonial-cfa-bg-curve {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: 100%;
+        z-index: -1;
+    }
+}

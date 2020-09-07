@@ -1,0 +1,20 @@
+{   
+    ".title_nav":{
+        "title" : "Ejemplo de lebrain"
+    },
+    ".section_1":{
+        "section_title" : "Seccion 1 \"sobre los titulos y tablas\"."
+    },
+    ".card-body":{
+        "card_text_1" : "La etiqueta h1, solo debes usarla una vez por pagina, porque es la reconocen los robot como el titlo de la web, si no tiene una meta definido para el titulo. Para todos los demas titulos y subtitulos debes usar, h2 h3 h4 h5 h6.",
+        "card_text_2" : "Evita colocar \"br\" para dar espacio entre etiquetas para eso esta el css agergar margen y padding, puedes usar \"br\" para dar saltos de linea (ese es su verdadero proposito).",
+        "card_text_3" : "Cada seccion de pagina debe estar divida por \"section\" y no por \"div\"",
+        "card_text_4" : "La pagina debe estar dividida por las estiquetas que corresponden \"side , header, footer .etc .etc\"", 
+        "card_text_5" : "Simpre debes evitar colocar css dentro de la pagina, para eso debes usar las hojas de estilo",
+        "card_text_6" : "Si necesitas trabajar con trablas, debes usar las etiqutas que lleva una tabla"
+    },
+    ".section_2":{
+        "section_title" : "Seccion dos sobre las tablas",
+        "subtitle": "Si tienes que usar tablas, debes agregar las equetas para cabecera, footer y cuerpo: (thead, tbody, tfoot) <br> tfoot solo para casos que lo requieran  ejemplo:"
+    }
+}

@@ -1,0 +1,20 @@
+{   
+    ".title_nav":{
+        "title" : "Example of lebrain"
+    },
+    ".section_1":{
+        "section_title" : "Section 1 \"about titles and tables\""
+    },
+    ".card-body":{
+        "card_text_1" : "The h1 tag, you should only use it once per page, because it is recognized by robots as the title of the web, if it does not have a defined goal for the title. For all other titles and subtitles you must use h2 h3 h4 h5 h6.",
+        "card_text_2" : "Avoid placing \"br\" to give space between labels, for that is the css togerger margin and padding, you can use \"br\" to give line breaks (that is its true purpose).",
+        "card_text_3" : "Each page section must be divided by \"sector\" and not by \"div\"",
+        "card_text_4" : "The page must be divided by the corresponding tags \"side, header, footer .etc .etc\"", 
+        "card_text_5" : "You should always avoid placing css inside the page, for that you must use the style sheets.",
+        "card_text_6" : "If you need to work with tables, you must use the labels that a table carries"
+    },
+    ".section_2":{
+        "section_title" : "Section two on the tables.",
+        "subtitle": "If you have to use tables, you must add the labels for header, footer and body: (thead, tbody, tfoot) <br> tfoot only for cases that require it, example:"
+    }
+}
