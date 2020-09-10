@@ -47,6 +47,42 @@
       background: rgba(0, 0, 0, 0.5);
       z-index: 1; }
 
+/* Blocks */
+.section-cover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  background-size: cover;
+  background-position: center center; 
+  }
+  .section-cover,
+  .section-cover .container {
+    position: relative;
+    display:flex;    
+    align-items:center;
+   }
+  .section-cover,
+  .section-cover .container > .row {
+    height: calc(90vh - 196px);
+    min-height: 100px; }
+    @media (max-width: 991.98px) {
+      .section-cover,
+      .section-cover .container > .row {
+        height: calc(80vh - 196px);
+        min-height: 100px; } }
+  .section-cover.overlay {
+    position: relative; }
+    .section-cover.overlay:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1; }
+
 .scrolldown {
   position: absolute;
   bottom: 2rem;
@@ -317,4 +353,60 @@
 
 .marg-phill{
   margin-top: 15rem;
+}
+
+.mega-item::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2.5px;
+      background-color: none;
+      margin-bottom: -1.07rem;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      z-index: 1; }
+
+.megamenu-li{
+  margin-left: 9rem;
+}
+
+.megamenu-li-about{
+  margin-left: 19rem;
+}
+
+.icon-a-g{
+  width: 30px;
+    float: right;
+    margin-top: 4rem;
+}
+
+.img-logo{
+  width: 85%;
+}
+
+.line-a-group{
+    background-color: #CFCFCF;
+    width: 100%; 
+    height: 1px;
+    margin-top: 1rem;
+}
+
+.line-a-group-vert{
+    background-color: #CFCFCF;
+    width: 1px; 
+    height: 8rem;
+}
+
+.hover a .img-logo{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover a:hover .img-logo{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }

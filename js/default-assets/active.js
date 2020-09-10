@@ -233,8 +233,54 @@
     // *********************************
     // :: 16.0 Prevent Default 'a' Click
     // *********************************
-    $('a[href="#"]').click(function ($) {
-        $.preventDefault();
+    
+
+
+    // *********************************
+    // :: More
+    // *********************************
+    $(function() {
+        $(document).on('click', 'a', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 2000, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
+
+    $(function(){
+        $(document).scroll(function(){
+            if($(this).scrollTop() > 1) {
+                $('#logo').attr('src','img/logo-g.png')
+            }
+            if($(this).scrollTop() < 1) {        
+             $('#logo').attr('src','img/logo-w.png');   
+            }
+        });
+        });
+
+    $(function(){
+
+        $(".dropdown").hover(
+                function () {
+                    $(".main-header-area").addClass("sticky-menu");
+                    $('#logo').attr('src','img/logo-g.png');
+
+                }, 
+                function () {
+                    $(".main-header-area").removeClass("sticky-menu");
+                    $('#logo').attr('src','img/logo-w.png');
+                });
+
+         $(".active-a").hover(function() {
+           $(".meg-a").toggleClass("mega-item").siblings().removeClass("mega-item");
+            });
+         $(".active-b").hover(function() {
+           $(".meg-b").toggleClass("mega-item").siblings().removeClass("mega-item");
+            });
+
+     });
+
 
 })(jQuery);
