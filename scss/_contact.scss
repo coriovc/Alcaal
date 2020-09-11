@@ -4,6 +4,34 @@
     position: relative;
     z-index: 1;
 
+    .container{
+
+    }
+
+    .card{
+        border-radius: 1rem;
+        border: none;
+
+    }
+
+    .contact-heading{
+        position: relative;
+        z-index: 1;
+
+        h5 {
+            color: $c-gray;
+            line-height: 1.4;
+            font-weight: 600;
+            font-size: 15px;
+
+            span{
+            margin-top: 0.5rem;
+            margin-left: 1.5%;
+
+            }
+        }
+    }
+
     .google-maps {
         position: relative;
         z-index: 1;
@@ -22,27 +50,43 @@
     }
 }
 
+.contact-area{
+    margin-left: 2rem;    
+    margin-top: 3rem;  
+}
+
 .single-contact-card {
     position: relative;
     z-index: 1;
 
+
     h4 {
-        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 400;
+        color:$c-gray;
+        margin:0;
     }
 
-    h3 {
-        color: $primary;
-
-        @media #{$breakpoint-lg} {
-            font-size: 20px;
-        }
-    }
 
     h6 {
         margin-bottom: 0;
         color: $text;
+        font-size: 13px;
         line-height: 1.5;
         font-weight: 400;
+
+        @media #{$breakpoint-xs} {
+            font-size: 13px;
+        }
+    }
+
+    h5 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        color: $text;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 700;
 
         @media #{$breakpoint-xs} {
             font-size: 14px;
@@ -53,6 +97,26 @@
 .uza-contact-form {
     position: relative;
     z-index: 1;
+
+    .contact-heading{
+        position: relative;
+        z-index: 1;
+
+        h5 {
+            color: $c-gray;
+            line-height: 1.4;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        h3 {
+            color: $c-gray;
+            line-height: 1.4;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            font-size: 29px;
+        }
+    }
 
     .form-control {
         width: 100%;
@@ -66,6 +130,12 @@
             box-shadow: none;
             border-color: $primary;
         }
+    }
+
+    label{
+        font-size: 12px;
+        color:$c-gray;
+        margin-bottom: 0.2rem;
     }
 
     textarea.form-control {

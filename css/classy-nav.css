@@ -416,7 +416,7 @@ img {
 .breakpoint-on .classy-navbar .classy-menu {
     background-color: #ffffff;
     position: fixed;
-    top: 0;
+    top: 4rem;
     left: 2000px;
     z-index: 1000;
     width: 100%;
@@ -424,7 +424,6 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     padding: 0;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     display: block;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -473,7 +472,7 @@ img {
   display: none;
 }
 .breakpoint-on .classynav {
-  padding-top: 70px;
+  padding-top: 0;
 }
 .breakpoint-on .classynav ul li .megamenu {
   position: relative;
@@ -491,8 +490,7 @@ img {
   border-bottom: 1px solid #f2f4f8;
 }
 .breakpoint-on .classynav>ul>li>a {
-  background-color: #f2f4f8;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      padding-left: 5rem;
 }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 15px;

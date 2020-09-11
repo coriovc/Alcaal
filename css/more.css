@@ -235,6 +235,7 @@
   }
 
 .svg-wave {
+  margin-top: 1rem;
     
 }
 .svg-wave svg path {
@@ -309,10 +310,9 @@
 }
 
 .img-ear{
-    width: 550px;
+    width: 410px;
     position: absolute;
-    padding: 1% 0;
-    margin: 0 0 0 -25%;
+    margin: -7% 0 0 -12%;
 }
 
 .img-figura-1{
@@ -339,7 +339,11 @@
 .parrafo-a{
   padding-left: 4rem;  
   margin-right: 3rem;
+}
 
+.parrafo-lo{
+  padding-left: 1rem;
+  margin-right: 8rem;
 }
 
 .with-p{
@@ -383,6 +387,14 @@
     margin-top: 4rem;
 }
 
+.icon-location{
+    width: 20px;
+    float: left;
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 0.6rem;
+}
+
 .img-logo{
   width: 85%;
 }
@@ -409,4 +421,10 @@
 .hover a:hover .img-logo{
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+
+.error{
+  font-size: 12px;
+  margin-left: 1rem;
 }

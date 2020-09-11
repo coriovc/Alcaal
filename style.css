@@ -669,7 +669,7 @@ input:focus {
               font-size: 14px; } }
           @media only screen and (max-width: 767px) {
             .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
-              font-size: 14px; } }
+              font-size: 25px; } }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a::after {
             content: none;
             width: auto; }
@@ -795,7 +795,7 @@ input:focus {
               font-size: 14px; } }
           @media only screen and (max-width: 767px) {
             .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a {
-              font-size: 14px; } }
+              font-size: 25px; } }
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a::after {
             content: none;
             width: auto; }
@@ -1669,11 +1669,11 @@ input:focus {
       bottom: 0;
       z-index: -1; }
 
-/* :: 11.0 Newsletter CSS */
+/* :: Newsletter CSS */
 .uza-newsletter-area {
   position: relative;
   z-index: 1;
-  padding: 3% 0 10% 0;
+  padding: 3% 0 6rem 0;
   background-size: cover;
   background-position: top center;
   background-image: url("img/bg-img/img-b-3.jpg"); }
@@ -1938,6 +1938,58 @@ input:focus {
       .about-text p {
         font-size: 17px; } }
   .about-text.phill p {
+    padding-top: 6%; }
+
+.locations-area-hero {
+  padding-top: 12%; }
+
+.locations-text {
+  position: relative;
+  z-index: 1; }
+  @media only screen and (max-width: 767px) {
+    .locations-text {
+      text-align: center; } }
+  .locations-text h2 {
+    font-size: 86px;
+    display: block;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .locations-text h2 {
+        font-size: 48px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .locations-text h2 {
+        font-size: 42px; } }
+    @media only screen and (max-width: 767px) {
+      .locations-text h2 {
+        font-size: 40px;
+        padding-top: 80px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .locations-text h2 {
+        font-size: 42px; } }
+    .locations-text h2 span {
+      color: #E7CF49; }
+  .locations-text p {
+    margin-bottom: 0;
+    line-height: 1.5;
+    padding-top: 1%;
+    font-size: 26px;
+    color: #ffffff; }
+    .locations-text p span {
+      color: #E7CF49;
+      font-weight: 800; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .locations-text p {
+        font-size: 18px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .locations-text p {
+        font-size: 12px; } }
+    @media only screen and (max-width: 767px) {
+      .locations-text p {
+        font-size: 17px; } }
+  .locations-text.phill p {
     padding-top: 6%; }
 
 .about-area {
@@ -2804,7 +2856,7 @@ input:focus {
   padding: 3% 0; }
   @media only screen and (max-width: 767px) {
     .footer-area {
-      margin-top: 5rem; } }
+      margin-top: 0; } }
   @media only screen and (max-width: 767px) {
     .footer-area .container {
       margin-top: 18rem; } }
@@ -2920,6 +2972,20 @@ input:focus {
 .uza-contact-area {
   position: relative;
   z-index: 1; }
+  .uza-contact-area .card {
+    border-radius: 1rem;
+    border: none; }
+  .uza-contact-area .contact-heading {
+    position: relative;
+    z-index: 1; }
+    .uza-contact-area .contact-heading h5 {
+      color: #5D5C60;
+      line-height: 1.4;
+      font-weight: 600;
+      font-size: 15px; }
+      .uza-contact-area .contact-heading h5 span {
+        margin-top: 0.5rem;
+        margin-left: 1.5%; }
   .uza-contact-area .google-maps {
     position: relative;
     z-index: 1;
@@ -2933,28 +2999,55 @@ input:focus {
       height: 100%;
       border: none; }
 
+.contact-area {
+  margin-left: 2rem;
+  margin-top: 3rem; }
+
 .single-contact-card {
   position: relative;
   z-index: 1; }
   .single-contact-card h4 {
-    margin-bottom: 15px; }
-  .single-contact-card h3 {
-    color: #E7CF49; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .single-contact-card h3 {
-        font-size: 20px; } }
+    font-size: 30px;
+    font-weight: 400;
+    color: #5D5C60;
+    margin: 0; }
   .single-contact-card h6 {
     margin-bottom: 0;
     color: #707070;
+    font-size: 13px;
     line-height: 1.5;
     font-weight: 400; }
     @media only screen and (max-width: 767px) {
       .single-contact-card h6 {
+        font-size: 13px; } }
+  .single-contact-card h5 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #707070;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 700; }
+    @media only screen and (max-width: 767px) {
+      .single-contact-card h5 {
         font-size: 14px; } }
 
 .uza-contact-form {
   position: relative;
   z-index: 1; }
+  .uza-contact-form .contact-heading {
+    position: relative;
+    z-index: 1; }
+    .uza-contact-form .contact-heading h5 {
+      color: #5D5C60;
+      line-height: 1.4;
+      font-weight: 600;
+      font-size: 15px; }
+    .uza-contact-form .contact-heading h3 {
+      color: #5D5C60;
+      line-height: 1.4;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      font-size: 29px; }
   .uza-contact-form .form-control {
     width: 100%;
     height: 50px;
@@ -2965,6 +3058,10 @@ input:focus {
     .uza-contact-form .form-control:focus {
       box-shadow: none;
       border-color: #E7CF49; }
+  .uza-contact-form label {
+    font-size: 12px;
+    color: #5D5C60;
+    margin-bottom: 0.2rem; }
   .uza-contact-form textarea.form-control {
     height: 110px;
     padding: 15px; }
