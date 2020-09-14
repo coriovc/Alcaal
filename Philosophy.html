@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/more.css">
 </head>
-<body>
+<body  id="top">
+    
     <!-- Preloader -->
-    <!--<div id="preloader">
+    <div id="preloader">
         <div class="wrapper">
             <div class="cssload-loader"></div>
         </div>
-    </div>-->
+    </div>
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
@@ -39,20 +40,22 @@
 
                     <!-- Menu -->
                     <div class="classy-menu">
-                        <!-- Menu Close Button -->
+                        <!-- Logo -->
+                        <a class="brand-movil" href="index.html"><img src="img/logo-g.png" alt="" width="150"></a>
+
                         <div class="classycloseIcon">
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
-
                     <!-- Nav Start -->
                     <div class="classynav">
                       <ul id="nav">
                         <li class="dropdown has-megamenu">
-                            <a class="item-menu meg-a" href="Group-companies.html">Group companies</a>
+                            <a class="item-menu meg-a" href="Group-companies.html">
+                                <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Group companies</a>
                             <div class="dropdown-menu megamenu active-a">
                               <div class="row">
                                 
-                                <div class="col-lg-5"><div class="mega-menu-text text-right"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
+                                <div class="col-lg-5"><div class="mega-menu-text text-right d-none d-xl-flex"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
                                         
                                 <div class="col megamenu-li">                                  
                                   <ul class="link">
@@ -72,31 +75,48 @@
                             </div>
                         </li>
                         <li class="dropdown has-megamenu">
-                            <a class="item-menu meg-b" href="#">About</a>
+                          <a class="item-menu meg-b" href="#">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>About</a>
                             <div class="dropdown-menu megamenu active-b">
-                              <div class="row">
-                                
-                                <div class="col-lg-5"><div class="mega-menu-text text-right"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
-                                        
+                              <div class="row">                                
+                                <div class="col-lg-5"></div>                                        
                                 <div class="col megamenu-li-about">                                  
                                   <ul class="link">
-                                      <li><a class="link" href="About-group.html">
-                                        <i class="arrow_right-up icon-zise mr-2"></i>The Group</a></li>
-                                      <li><a class="link" href="About-team.html">
-                                        <i class="arrow_right-up icon-zise mr-2"></i>Our Team</a></li>         
-                                    </ul>
+                                    <li><a class="link" href="About-group.html">
+                                      <i class="arrow_right-up icon-zise mr-2"></i>The Group</a></li>
+                                    <li><a class="link" href="About-team.html">
+                                      <i class="arrow_right-up icon-zise mr-2"></i>Our Team</a></li>       
+                                  </ul>
                                 </div>
                               </div> 
                             </div>
                         </li>
-                        <li><a class="item-menu mega-item" href="Philosophy.html">CSR</a></li>
-                        <li><a class="item-menu" href="Locations.html">Locations</a></li>                               
-                        <li><a class="item-menu" href="#contact" class="page-scroll">Contact</a></li>
+                        <li><a class="item-menu mega-item" href="Philosophy.html">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>CSR</a></li>
+                        <li><a class="item-menu" href="Locations.html">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Locations</a></li>
+                        <li><a class="item-menu" href="#contact" class="page-scroll">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Contact</a></li>
 
                       </ul>
-                            <div class="lang-b ml-4 ">
+                            <div class="lang-b ml-4 d-none d-xl-flex">
                                 <a href="#" class="btn uza-btn btn-lang">ESP</a>
                             </div>
+                        
+                        <div class="d-block d-xl-none">
+                            <hr>
+                            <label class="switch-lang">
+                              <input type="checkbox">
+                              <div></div>
+                            </label>
+                            <hr>
+                            <div class="menu-icon-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
                     <!-- Nav End -->
 
@@ -106,6 +126,7 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+
 
     <!-- ***** Welcome Area Start ***** -->
     <section class="phill-area">
@@ -238,7 +259,7 @@
     <!-- ***** Area End ***** -->
 
 
-    <!-- ***** Footer Area Start ***** -->
+        <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area" style="background-image: url('img/footer.svg')">
         <div class="container">
             <div class="row">
@@ -250,21 +271,21 @@
                             <div class="contact-heading">
                             <h5>CONTACT<span class="line-primary line-c"></span></h5>
                             </div>
-                            <form action="#" method="post">
+                            <form id="contact_form" action="#" method="post">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-4" name="full-name" placeholder="Enter your full name">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter your full name">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input type="email" class="form-control mb-4" name="email" placeholder="Enter your email">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter your email">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control mb-4" name="message" rows="5" cols="80" placeholder="Message"></textarea>
+                                        <textarea class="form-control" name="message" rows="5" cols="80" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -331,13 +352,12 @@
         </div>
     </footer>
     <!-- ***** Footer Area End ***** -->
-    
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- jQuery js -->
-    <script src="js/scripts.js"></script>
+    <script src="js/jquery.easing.min.js"></script>    
+    <script src="js/jquery.validate.js"></script>
+
     <!-- Popper js -->
     <script src="js/popper.min.js"></script>
     <!-- Bootstrap js -->
@@ -346,6 +366,7 @@
     <script src="js/uza.bundle.js"></script>
     <!-- Active js -->
     <script src="js/default-assets/active.js"></script>
+    <script src="js/validator-contact.js"></script>
 </body>
 
 </html>

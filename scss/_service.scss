@@ -48,6 +48,11 @@
         padding: 4% 2% 2% 5%;
         width: 100%;
 
+        h5 {
+            color: $c-gray;
+            font-size: 13px;
+        }
+
       .nl-content {
         position: relative;
         z-index: 1;
@@ -58,19 +63,22 @@
             font-weight: 400;
             margin-bottom: 0;
             color: $c-gray;
+            margin-right: 5rem;
 
-            @media #{$breakpoint-lg} {
-                font-size: 30px;
-            }
-
-            @media #{$breakpoint-md} {
-                font-size: 24px;
+            span{
+                color:$primary;
+                @media #{$breakpoint-xs} {
+                   color:$c-gray;
+                }
             }
 
             @media #{$breakpoint-xs} {
-                font-size: 24px;
+                font-size: 22px;
+                line-height: 1.2;
+                margin-right: 0;
             }
         }
+        
 
         p {
             margin-bottom: 0;

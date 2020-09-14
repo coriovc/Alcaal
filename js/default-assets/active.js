@@ -3,6 +3,16 @@
 
     var uza_window = $(window);
 
+
+    $('.switch-lang input').on('change', function(){
+      var dad = $(this).parent();
+      if($(this).is(':checked'))
+        dad.addClass('switch-lang-checked');
+      else
+        dad.removeClass('switch-lang-checked');
+    });
+    
+
     // ****************************
     // :: 1.0 Preloader Active Code
     // ****************************
@@ -273,6 +283,7 @@
                     $('#logo').attr('src','img/logo-w.png');
                 });
 
+
          $(".active-a").hover(function() {
            $(".meg-a").toggleClass("mega-item").siblings().removeClass("mega-item");
             });
@@ -281,6 +292,5 @@
             });
 
      });
-
 
 })(jQuery);

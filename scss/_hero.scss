@@ -9,9 +9,7 @@
     .welcome-text {
         position: relative;
         z-index: 1;
-        @media #{$breakpoint-xs} {
-            padding-top: 50px;
-        }
+
         
         
         h2 {
@@ -22,21 +20,10 @@
             font-weight: 400;
             line-height: 1;   
 
-            @media #{$breakpoint-lg} {
-                font-size: 48px;
-            }
-
-            @media #{$breakpoint-md} {
-                font-size: 42px;
-            }
-
             @media #{$breakpoint-xs} {
-                font-size: 36px;
+                font-size: 50px;
             }
 
-            @media #{$breakpoint-sm} {
-                font-size: 42px;
-            }
 
             span {
                 color: $primary;

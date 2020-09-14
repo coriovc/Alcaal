@@ -399,7 +399,7 @@
     position: relative;
     z-index: 1;
     padding: 3% 11%;
-    
+
     &.padd-team{
         padding: 4rem 0;
         margin-bottom: 7rem;
@@ -420,6 +420,11 @@
     .nl-content {
         position: relative;
         z-index: 1;
+        width: 80%;
+
+        @media #{$breakpoint-xs} {
+               width: 100%;
+            }
 
         h2 {
             font-size: 40px;
@@ -473,6 +478,11 @@
             }
         }
     }
+
+    @media #{$breakpoint-xs} {
+               padding-bottom: 7rem;
+            }
+
 }
 
 .phill-area-sec {

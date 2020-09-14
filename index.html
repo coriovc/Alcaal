@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/more.css">
 </head>
 <body id="top">
+    
     <!-- Preloader -->
     <div id="preloader">
         <div class="wrapper">
@@ -39,20 +40,22 @@
 
                     <!-- Menu -->
                     <div class="classy-menu">
-                        <!-- Menu Close Button -->
+
+                        <!-- Logo -->
+                        <a class="brand-movil" href="index.html"><img src="img/logo-g.png" alt="" width="150"></a>
+
                         <div class="classycloseIcon">
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
-
                     <!-- Nav Start -->
                     <div class="classynav">
                       <ul id="nav">
                         <li class="dropdown has-megamenu">
-                            <a class="item-menu meg-a" href="Group-companies.html">Group companies</a>
+                            <a class="item-menu meg-a" href="Group-companies.html"><i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Group companies</a>
                             <div class="dropdown-menu megamenu active-a">
                               <div class="row">
                                 
-                                <div class="col-lg-5"><div class="mega-menu-text text-right"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
+                                <div class="col-lg-5"><div class="mega-menu-text text-right d-none d-xl-flex"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
                                         
                                 <div class="col megamenu-li">                                  
                                   <ul class="link">
@@ -72,11 +75,11 @@
                             </div>
                         </li>
                         <li class="dropdown has-megamenu">
-                            <a class="item-menu meg-b" href="#">About</a>
+                            <a class="item-menu meg-b" href="#"><i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>About</a>
                             <div class="dropdown-menu megamenu active-b">
                               <div class="row">
                                 
-                                <div class="col-lg-5"><div class="mega-menu-text text-right"><h2>Innovative Solutions<br>for Emerging Markets</h2></div></div>
+                                <div class="col-lg-5"></div>
                                         
                                 <div class="col megamenu-li-about">                                  
                                   <ul class="link">
@@ -89,14 +92,32 @@
                               </div> 
                             </div>
                         </li>
-                        <li><a class="item-menu" href="Philosophy.html">CSR</a></li>
-                        <li><a class="item-menu" href="Locations.html">Locations</a></li>                               
-                        <li><a class="item-menu" href="#contact" class="page-scroll">Contact</a></li>
+                        <li><a class="item-menu" href="Philosophy.html">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>CSR</a></li>
+                        <li><a class="item-menu" href="Locations.html">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Locations</a></li>
+                        <li><a class="item-menu" href="#contact" class="page-scroll">
+                            <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Contact</a></li>
 
                       </ul>
-                            <div class="lang-b ml-4 ">
+                            <div class="lang-b ml-4 d-none d-xl-flex">
                                 <a href="#" class="btn uza-btn btn-lang">ESP</a>
                             </div>
+                        
+                        <div class="d-block d-xl-none">
+                            <hr>
+                            <label class="switch-lang">
+                              <input type="checkbox">
+                              <div></div>
+                            </label>
+                            <hr>
+                            <div class="menu-icon-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
                     <!-- Nav End -->
 
@@ -121,7 +142,7 @@
                             
           </div>
         </div>
-        <div class="scrolldown" id="section1">
+        <div class="scrolldown d-none d-xl-block" id="section1">
          <a href="#section1">Scroll down</a>
         </div> 
         </div>
@@ -147,7 +168,7 @@
                 <img src="./img/core-img/circle-1.png" alt="">
             </div>
 
-            <div class="row align-items-center">
+            <div class="row align-items-center d-none d-xl-flex">
                 <div class="col">
                     <div class="card border-0" style="height: 200px">
                         <div class="">
@@ -221,21 +242,20 @@
 
     <!-- ***** Services Area Start ***** -->
     <section class="uza-services-area bg-gray-sec section-padding-80-0" style="padding-top: 50rem;">
-        <div class="container" style="margin-right: 0;">            
+        <div class="container mr-0">            
             <div class="row align-items-center" style="display: flow-root;">
                 <img src="img/bg-img/2016.png" class="img-ear">
-                <div style="width: 85%;float: right;">
+                <div class="content-card-2016">
                     <div class="card-ear">
                     <div class="contact-heading">
                         <h5>A SERIOUS BUSINESS PARTNER<span class="line-primary line-p"></span></h5>
                     </div>
-                    <div class="nl-content mb-40">
-                        <h2>Since 2016, ALCAAL has participated in<br>
-                        <span class="color-primary">transactions worth US$ 100 MM.</span><br>
-                        Traded volume in <span class="color-primary">2017 has been 10,000 tons.</span></h2>
-                        <a href="#" class="btn uza-btn btn-2 btn-bold mt-5">
+                    <div class="nl-content">
+                        <h2>Since 2016, ALCAAL has participated in 
+                        <span>transactions worth US$ 100 MM.</span><br> 
+                        Traded volume in <span>2017 has been 10,000 tons.</span></h2>
+                        <a href="#" class="btn uza-btn btn-2 btn-bold marg-2016">
                             <i class="arrow_right-up icon-zise mr-2"></i>COMPANY PROFILE</a>
-
                     </div>
                     </div>
                 </div>               
@@ -263,71 +283,61 @@
                     </div>
                     <div class="nl-content mb-80">
                         <h2>Corporate social responsibility is <br>in the core of the <span class="color-primary">Groups philosophy.</span> </h2>
-                        <div class="col-12 col-md-6 col-lg-6">
-                        <p>Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.</p><br>
-                        <p>We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.</p>
+                        <div>
+                            <p>Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.</p><br>
+                            <p class="d-none d-xl-flex">We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.</p>
                         </div>
                     </div>
                 </div>      
             </div>
-            
-            <div class="container-fluid">
-            <div class="row">
-                    <!-- Single Portfolio Slide -->
-                    <div class="col single-portfolio-slide">
-                        <img src="./img/bg-img/1-img.jpg" alt="">
-                        <!-- Overlay Effect -->
-                        <div class="overlay-effect">
-                            <h4>Education</h4>
-                        </div>
-                        <!-- View More -->
-                        <div class="view-more-btn">
-                            <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
-                        </div>
-                    </div>
-
-                    <!-- Single Portfolio Slide -->
-                    <div class="col single-portfolio-slide">
-                        <img src="./img/bg-img/2-img.jpg" alt="">
-                        <!-- Overlay Effect -->
-                        <div class="overlay-effect two-line">
-                            <h4>Social Rehabilitation</h4>
-                        </div>
-                        <!-- View More -->
-                        <div class="view-more-btn">
-                            <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
-                        </div>
-                    </div>
-
-                    <!-- Single Portfolio Slide -->
-                    <div class="col single-portfolio-slide">
-                        <img src="./img/bg-img/3-img.jpg" alt="">
-                        <!-- Overlay Effect -->
-                        <div class="overlay-effect">
-                            <h4>Health</h4>
-                        </div>
-                        <!-- View More -->
-                        <div class="view-more-btn">
-                            <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
-                        </div>
-                    </div>
-
-                    <!-- Single Portfolio Slide -->
-                    <div class="col single-portfolio-slide">
-                        <img src="./img/bg-img/4-img.jpg" alt="">
-                        <!-- Overlay Effect -->
-                        <div class="overlay-effect">
-                            <h4>Tools for life</h4>
-                        </div>
-                        <!-- View More -->
-                        <div class="view-more-btn">
-                            <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
-                        </div>
-                    </div>
-            </div>
-            </div>
-
         </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="card-deck">                     
+                    <!-- card -->
+                    <div class="col single-portfolio-slide bg img1">                        
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect"><h4>Education</h4></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>
+
+                    <!-- card -->
+                    <div class="col single-portfolio-slide bg img2">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect"><h4>Social Rehabilitation</h4></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>
+
+                    <!-- card -->
+                    <div class="col single-portfolio-slide bg img3">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect"><h4>Health</h4></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>
+
+                    <!-- card -->
+                    <div class="col single-portfolio-slide bg img4">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect"><h4>Tools for life</h4></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="Philosophy.html"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>           
+                </div>  
+            </div>
+        </div>
+
         </div>
     </section>
     <!-- ***** Portfolio Area End ***** -->
@@ -335,25 +345,24 @@
     <!-- ***** Blog Area Start ***** -->
     <section class="uza-blog-area">        
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!-- Newsletter Content -->
+            <div class="row align-items-center justify-content-between">          
+                <!-- img -->
                 <div class="col-12 col-md-6 col-lg-6">
                     <img src="img/bg-img/img-1.jpg" class="img-post">
                     <img src="img/core-img/figura-1.png" class="img-figura-1">
-                </div>
-                <!-- Newsletter Content -->
+                </div>        
+                <!-- Content -->
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="contact-heading">
                         <h5>OUR TEAM<span class="line-primary"></span></h5>
                     </div>
                     <div class="nl-content mb-80">
                         <h2>ALCAAL has +30 professionals</h2>
-                        <p>with diverse  backgrounds including engineering, business,<br>investment banking and  investment management.</p>
+                        <p>with diverse  backgrounds including engineering, business, investment banking and  investment management.</p>
                         <a href="About-team.html" class="btn uza-btn btn-2 btn-bold mt-5">
                             <i class="arrow_right-up icon-zise mr-2"></i>MEET THE TEAM</a>
-
                     </div>
-                </div>               
+                </div>                             
             </div>  
         </div>
     </section>
@@ -379,6 +388,7 @@
         </div>
     </section>
     <!-- ***** Newsletter Area End ***** -->
+    
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area" style="background-image: url('img/footer.svg')">
         <div class="container">

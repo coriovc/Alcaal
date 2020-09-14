@@ -482,6 +482,9 @@ input:focus {
     border-color: #D2D2D2; }
     .header-area .dropdown .dropdown-menu:hover {
       display: block; }
+    @media only screen and (max-width: 767px) {
+      .header-area .dropdown .dropdown-menu {
+        padding: 1rem 0; } }
   .header-area .main-header-area.sticky-menu {
     background-color: #ffffff; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav .lang-b a {
@@ -490,6 +493,8 @@ input:focus {
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav .lang-b a:focus, .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav .lang-b a:hover {
         color: #E7CF49;
         border-color: #E7CF49; }
+    .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classy-navbar-toggler .navbarToggler span {
+      background-color: #5D5C60; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
       position: relative;
       z-index: 1;
@@ -498,6 +503,9 @@ input:focus {
       text-transform: capitalize;
       color: #5D5C60;
       margin: 16px 0; }
+      @media only screen and (max-width: 767px) {
+        .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
+          font-size: 25px; } }
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:focus, .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:hover {
         color: #000000; }
         .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:focus::after, .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:hover::after {
@@ -561,7 +569,8 @@ input:focus {
           font-size: 14px; } }
       @media only screen and (max-width: 767px) {
         .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.link {
-          width: auto; } }
+          width: auto;
+          font-size: 18px; } }
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.link::after {
         content: none;
         width: auto; }
@@ -630,6 +639,8 @@ input:focus {
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav .lang-b a:focus, .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav .lang-b a:hover {
             color: #E7CF49;
             border-color: #E7CF49; }
+        .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classy-navbar-toggler .navbarToggler span {
+          background-color: #5D5C60; }
         .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
           position: relative;
           z-index: 1;
@@ -687,7 +698,8 @@ input:focus {
                 font-size: 14px; } }
             @media only screen and (max-width: 767px) {
               .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a.link {
-                width: auto; } }
+                width: auto;
+                font-size: 18px; } }
             .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a.link::after {
               content: none;
               width: auto; }
@@ -756,6 +768,8 @@ input:focus {
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav .lang-b a:focus, .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav .lang-b a:hover {
             color: #E7CF49;
             border-color: #E7CF49; }
+        .header-area .main-header-area2 .classy-nav-container .classy-navbar .classy-navbar-toggler .navbarToggler span {
+          background-color: #5D5C60; }
         .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a {
           position: relative;
           z-index: 1;
@@ -813,7 +827,8 @@ input:focus {
                 font-size: 14px; } }
             @media only screen and (max-width: 767px) {
               .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.link {
-                width: auto; } }
+                width: auto;
+                font-size: 18px; } }
             .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.link::after {
               content: none;
               width: auto; }
@@ -840,8 +855,11 @@ input:focus {
                   height: 1px; } }
               @media only screen and (max-width: 767px) {
                 .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item::after {
-                  width: 100%;
-                  height: 1px; } }
+                  content: none;
+                  width: 0; } }
+            @media only screen and (max-width: 767px) {
+              .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item {
+                color: #5D5C60; } }
         .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li.current-item a {
           color: #000000; }
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li.current-item a::after {
@@ -925,16 +943,10 @@ input:focus {
       margin: 16px 0; }
       .classy-nav-container .classy-navbar .classynav ul li a.item-menu:focus, .classy-nav-container .classy-navbar .classynav ul li a.item-menu:hover {
         color: #E7CF49; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
-          font-size: 14px;
-          padding: 0 10px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
-          font-size: 14px; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
-          font-size: 14px; } }
+          font-size: 25px;
+          color: #5D5C60; } }
     .classy-nav-container .classy-navbar .classynav ul li a.link {
       position: relative;
       z-index: 1;
@@ -1052,6 +1064,27 @@ input:focus {
   .get-a-quote {
     margin: 30px 15px !important; } }
 
+.menu-icon-social {
+  text-align: center;
+  padding: 1rem 0; }
+  .menu-icon-social a {
+    display: inline-block;
+    color: #E7CF49;
+    font-size: 45px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px; }
+    @media only screen and (max-width: 767px) {
+      .menu-icon-social a {
+        font-size: 40px;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+        line-height: 40px; } }
+
 /* :: 8.0 Hero CSS */
 .welcome-slides {
   position: relative;
@@ -1061,9 +1094,6 @@ input:focus {
 .welcome-text {
   position: relative;
   z-index: 1; }
-  @media only screen and (max-width: 767px) {
-    .welcome-text {
-      padding-top: 50px; } }
   .welcome-text h2 {
     font-size: 86px;
     display: block;
@@ -1071,18 +1101,9 @@ input:focus {
     color: #ffffff;
     font-weight: 400;
     line-height: 1; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .welcome-text h2 {
-        font-size: 48px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .welcome-text h2 {
-        font-size: 42px; } }
     @media only screen and (max-width: 767px) {
       .welcome-text h2 {
-        font-size: 36px; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .welcome-text h2 {
-        font-size: 42px; } }
+        font-size: 50px; } }
     .welcome-text h2 span {
       color: #E7CF49; }
   .welcome-text h5 {
@@ -1177,7 +1198,8 @@ input:focus {
   position: relative;
   z-index: 1;
   padding-left: 3%;
-  padding-right: 3%; }
+  padding-right: 3%;
+  padding-bottom: 5rem; }
 
 .a-group-area {
   position: relative;
@@ -1205,12 +1227,10 @@ input:focus {
       margin-bottom: 0;
       line-height: 1.5;
       font-size: 26px; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      @media only screen and (max-width: 767px) {
         .a-group-area .a-content p {
-          font-size: 14px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .a-group-area .a-content p {
-          font-size: 12px; } }
+          font-size: 15px;
+          margin-right: 5rem; } }
   .a-group-area .card {
     border: none; }
 
@@ -1237,15 +1257,9 @@ input:focus {
       color: #5D5C60; }
       .NV-area .NV-content h2 span {
         color: #E7CF49; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .NV-area .NV-content h2 {
-          font-size: 30px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .NV-area .NV-content h2 {
-          font-size: 24px; } }
       @media only screen and (max-width: 767px) {
         .NV-area .NV-content h2 {
-          font-size: 24px; } }
+          font-size: 40px; } }
     .NV-area .NV-content p {
       margin: 2rem 4rem 0 0;
       line-height: 2;
@@ -1302,25 +1316,19 @@ input:focus {
     font-weight: 400;
     margin-bottom: 0;
     color: #5D5C60; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .our-phil-area .nl-content h2 {
-        font-size: 30px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .our-phil-area .nl-content h2 {
-        font-size: 24px; } }
     @media only screen and (max-width: 767px) {
       .our-phil-area .nl-content h2 {
-        font-size: 24px; } }
+        font-size: 40px;
+        line-height: 1; } }
   .our-phil-area .nl-content p {
     margin-bottom: 0;
     line-height: 1.5;
     font-size: 20px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (max-width: 767px) {
       .our-phil-area .nl-content p {
-        font-size: 14px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .our-phil-area .nl-content p {
-        font-size: 12px; } }
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 1.5rem 7rem 0 0; } }
 
 .single-portfolio-slide {
   -webkit-transition-duration: 500ms;
@@ -1328,20 +1336,52 @@ input:focus {
   transition-duration: 500ms;
   position: relative;
   z-index: 1;
-  margin-bottom: 50px;
   width: 250px;
   height: 450px;
   padding: 0;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1); }
+  @media only screen and (max-width: 767px) {
+    .single-portfolio-slide {
+      width: 100%;
+      height: 200px;
+      padding: 0 1rem;
+      overflow: hidden; } }
+  .single-portfolio-slide.bg {
+    background-size: cover;
+    background-position: center center; }
+  .single-portfolio-slide.img1 {
+    background-image: url("./img/bg-img/1-img.jpg");
+    background-position-x: -11rem; }
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-slide.img1 {
+        background-position-x: 0; } }
+  .single-portfolio-slide.img2 {
+    background-image: url("./img/bg-img/2-img.jpg");
+    background-position-x: -14rem; }
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-slide.img2 {
+        background-position-x: 0; } }
+  .single-portfolio-slide.img3 {
+    background-image: url("./img/bg-img/3-img.jpg");
+    background-position-x: -29rem; }
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-slide.img3 {
+        background-position-x: 0; } }
+  .single-portfolio-slide.img4 {
+    background-image: url("./img/bg-img/4-img.jpg");
+    background-position-x: -11rem; }
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-slide.img4 {
+        background-position-x: 0; } }
   .single-portfolio-slide img {
     position: relative;
     z-index: 1;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%; }
+    height: auto; }
     .single-portfolio-slide img .degra {
       position: relative;
       z-index: 2;
@@ -1354,29 +1394,22 @@ input:focus {
     transition-duration: 500ms;
     position: absolute;
     width: 100%;
-    height: 100%;
-    bottom: -75%;
+    height: auto;
+    bottom: 0;
     left: 0;
     z-index: 20;
-    padding: 40px 30px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .single-portfolio-slide .overlay-effect {
-        padding: 30px; } }
+    padding: 10px 30px; }
     @media only screen and (max-width: 767px) {
       .single-portfolio-slide .overlay-effect {
-        padding: 30px; } }
-    .single-portfolio-slide .overlay-effect.two-line {
-      bottom: -65%; }
+        padding: 0 20px; } }
     .single-portfolio-slide .overlay-effect h4 {
       display: block;
-      margin-bottom: 15px;
       font-weight: 600;
       color: #ffffff;
       font-size: 2rem; }
       @media only screen and (max-width: 767px) {
         .single-portfolio-slide .overlay-effect h4 {
-          margin-bottom: 10px;
-          font-size: 20px; } }
+          font-size: 25px; } }
     .single-portfolio-slide .overlay-effect p {
       margin-bottom: 0;
       line-height: 1.6; }
@@ -1425,17 +1458,17 @@ input:focus {
     transform: scale(1.1);
     z-index: 20; }
     .single-portfolio-slide:focus .overlay-effect, .single-portfolio-slide:hover .overlay-effect {
-      bottom: -60%;
+      bottom: 15%;
       left: 0; }
-      .single-portfolio-slide:focus .overlay-effect.two-line, .single-portfolio-slide:hover .overlay-effect.two-line {
-        bottom: -50%; }
     .single-portfolio-slide:focus .view-more-btn a, .single-portfolio-slide:hover .view-more-btn a {
-      left: 40px;
+      left: 30px;
       opacity: 1;
       visibility: visible; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .single-portfolio-slide:focus .view-more-btn a, .single-portfolio-slide:hover .view-more-btn a {
-          right: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-slide:focus .overlay-effect, .single-portfolio-slide:hover .overlay-effect {
+        bottom: 31%; }
+      .single-portfolio-slide:focus .view-more-btn a, .single-portfolio-slide:hover .view-more-btn a {
+        left: 30px; } }
 
 .portfolio-sildes {
   position: relative;
@@ -2009,7 +2042,11 @@ input:focus {
       font-size: 15px; }
   .about-area .nl-content {
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    width: 80%; }
+    @media only screen and (max-width: 767px) {
+      .about-area .nl-content {
+        width: 100%; } }
     .about-area .nl-content h2 {
       font-size: 40px;
       display: block;
@@ -2048,6 +2085,9 @@ input:focus {
       @media only screen and (max-width: 767px) {
         .about-area .nl-content p {
           font-size: 14px; } }
+  @media only screen and (max-width: 767px) {
+    .about-area {
+      padding-bottom: 7rem; } }
 
 .phill-area-sec {
   position: relative;
@@ -2164,6 +2204,9 @@ input:focus {
   min-width: 0;
   padding: 4% 2% 2% 5%;
   width: 100%; }
+  .card-ear h5 {
+    color: #5D5C60;
+    font-size: 13px; }
   .card-ear .nl-content {
     position: relative;
     z-index: 1; }
@@ -2172,16 +2215,18 @@ input:focus {
       display: block;
       font-weight: 400;
       margin-bottom: 0;
-      color: #5D5C60; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .card-ear .nl-content h2 {
-          font-size: 30px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .card-ear .nl-content h2 {
-          font-size: 24px; } }
+      color: #5D5C60;
+      margin-right: 5rem; }
+      .card-ear .nl-content h2 span {
+        color: #E7CF49; }
+        @media only screen and (max-width: 767px) {
+          .card-ear .nl-content h2 span {
+            color: #5D5C60; } }
       @media only screen and (max-width: 767px) {
         .card-ear .nl-content h2 {
-          font-size: 24px; } }
+          font-size: 22px;
+          line-height: 1.2;
+          margin-right: 0; } }
     .card-ear .nl-content p {
       margin-bottom: 0;
       line-height: 1.5; }
@@ -2296,6 +2341,9 @@ input:focus {
   .uza-blog-area .padd-phill {
     padding: 4rem 0;
     margin-bottom: 7rem; }
+  @media only screen and (max-width: 767px) {
+    .uza-blog-area {
+      padding-bottom: 15rem; } }
 
 .phill-area {
   position: relative;

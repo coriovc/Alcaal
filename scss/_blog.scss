@@ -18,6 +18,10 @@
         padding: 4rem 0;
         margin-bottom: 7rem;
     }
+
+    @media #{$breakpoint-xs} {
+        padding-bottom: 15rem;
+    }
     
 }
 
