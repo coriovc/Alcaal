@@ -1322,8 +1322,9 @@ input:focus {
         line-height: 1; } }
   .our-phil-area .nl-content p {
     margin-bottom: 0;
-    line-height: 1.5;
-    font-size: 20px; }
+    line-height: 1.2;
+    font-size: 25px;
+    margin-right: 29rem; }
     @media only screen and (max-width: 767px) {
       .our-phil-area .nl-content p {
         font-size: 15px;
