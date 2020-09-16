@@ -265,7 +265,7 @@
                 $('#logo').attr('src','img/logo-g.png')
             }
             if($(this).scrollTop() < 1) {        
-             $('#logo').attr('src','img/logo-w.png');   
+             $('#logo').attr('src','img/logo-w.svg');   
             }
         });
         });
@@ -280,7 +280,7 @@
                 }, 
                 function () {
                     $(".main-header-area").removeClass("sticky-menu");
-                    $('#logo').attr('src','img/logo-w.png');
+                    $('#logo').attr('src','img/logo-w.svg');
                 });
 
 
@@ -294,3 +294,18 @@
      });
 
 })(jQuery);
+
+jQuery(document).ready(function () {
+          jQuery(".card-deck .sl-a").hover(function () {
+
+            jQuery('.card-deck .sl-a').removeClass("active")
+            jQuery(this).addClass("active")
+
+          });
+          jQuery(".card-deck .sl-b").hover(function () {
+
+            jQuery('.card-deck .sl-b').removeClass("active")
+            jQuery(this).addClass("active")
+
+          });
+        });

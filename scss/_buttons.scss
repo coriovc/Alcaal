@@ -17,11 +17,9 @@
     border-radius: 50px;
     background-color: $white;
     @include transition-duration(500ms);
-    @include box-shadow($box-shadow);
 
     &:focus,
     &:hover {
-        @include box-shadow($box-shadow);
         background-color: $primary;
         color: $white;
     }

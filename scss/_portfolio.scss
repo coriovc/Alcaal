@@ -3,10 +3,16 @@
 .uza-portfolio-area {
     position: relative;
     z-index: 1;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 5rem;
+    padding: 5% 3% 5rem 3%;
 }
+
+.al-gro-area{
+    position: relative;
+    z-index: 0;
+    padding: 10% 3% 10% 3%;
+    overflow: hidden;
+}
+
 
 .a-group-area{
     position: relative;
@@ -166,6 +172,44 @@
 
 }
 
+.al-group-area{
+
+    .nl-content {
+        position: relative;
+        z-index: 1;
+
+        h2 {
+            font-size: 70px;
+            margin-right: 5rem;
+            font-weight: 400;
+            line-height: 1;
+            color: $c-gray;
+
+            @media #{$breakpoint-xs} {
+                font-size: 40px;
+                line-height: 1;
+            }
+        }
+
+        p {
+            
+            margin-bottom: 0;
+            line-height: 1.2;
+            font-size: 25px;
+            margin-right: 29rem;
+
+            @media #{$breakpoint-xs} {
+                font-size: 15px;
+                line-height: 1.2;
+                margin: 1.5rem 7rem 0 0;
+            }
+        }
+
+        @media #{$breakpoint-xs} {
+            
+        }
+    }
+}
 
 .our-phil-area{
 
@@ -190,8 +234,8 @@
             
             margin-bottom: 0;
             line-height: 1.2;
-            font-size: 25px;
-            margin-right: 29rem;
+            font-size: 22px;
+            margin-right: 33rem;
 
             @media #{$breakpoint-xs} {
                 font-size: 15px;
@@ -553,4 +597,213 @@
             font-size: 16px;
         }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-group {
+    position: relative;
+    display: inline-block;
+    height: 410px;
+    transition: all 1s cubic-bezier(.165,.84,.44,1);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    z-index: 1;
+    margin-right: -2rem;
+    margin-left: -2rem;
+
+    &.active{
+        @include box-shadow($box-shadow);
+        z-index: 20;
+        position: relative;
+        height: 470px;
+        width: 60%;
+        transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+        margin-top: -100px;
+    }
+
+    @media #{$breakpoint-xs} {
+        width: 100%;
+        height: 200px;
+        padding: 0 1rem;
+        overflow: hidden;
+    }
+
+    &.bg{
+        background-size: cover;
+        background-position: center center;
+    }
+
+    &.img1{        
+        background-image: url('./img/bg-img/img-g-1.jpg');
+
+        @media #{$breakpoint-xs} { background-position-x: 0;}
+    }
+    &.img2{        
+        background-image: url('./img/bg-img/img-g-2.jpg');
+
+        @media #{$breakpoint-xs} { background-position-x: 0;}
+    }
+
+    &.img3{        
+        background-image: url('./img/bg-img/img-g-3.jpg');
+
+        @media #{$breakpoint-xs} { background-position-x: 0;}
+    }
+    &.img4{        
+        background-image: url('./img/bg-img/img-g-4.jpg');
+
+        @media #{$breakpoint-xs} { background-position-x: 0;}
+    }
+    
+
+    img {
+        position: relative;
+        z-index: 1;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: auto;
+
+        .degra{
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8547794118) 0%, rgba(0, 0, 0, 0) 100%);
+        }
+        
+
+        @media #{$breakpoint-xs} {
+            
+        }
+
+    }
+
+    .overlay-effect {
+        @include transition-duration(500ms);
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 1rem;
+        left: 0;
+        z-index: 20;
+        padding: 10px 30px;    
+
+        @media #{$breakpoint-xs} {
+            padding: 0 20px;
+        }
+
+        h4 {
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 1.5rem;
+            line-height: 1;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-xs} {
+                font-size: 25px;
+            }
+        }
+
+        h3 {
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 2rem;
+            line-height: 1;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-xs} {
+                font-size: 25px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 1.6;
+            
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .view-more-btn a {
+        @include transition-duration(500ms);
+        min-width: 140px;
+        height: 45px;
+        border-radius: 50px;
+        background-color: $tersiary;
+        display: inline-block;
+        position: absolute;
+        bottom: 40px;
+        z-index: 100;
+        text-align: center;
+        line-height: 2.5;
+        font-size: 18px;
+        color:$white;
+        right: 50px;
+
+        @media #{$breakpoint-lg} {
+            bottom: 30px;
+            width: 40px;
+            height: 40px;
+            line-height: 45px;
+        }
+
+        @media #{$breakpoint-xs} {
+            bottom: 30px;
+            width: 40px;
+            height: 40px;
+            line-height: 45px;
+        }
+
+        &:focus,
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    &:focus,
+    &:hover {
+
+        @media #{$breakpoint-xs} {
+
+            .overlay-effect {            
+                bottom: 31%;
+            }
+
+            .view-more-btn a {
+                left: 30px;
+            }
+        }
+
+    }
+}
+
+.slide-content{
+    position: absolute;
+    width: 50%;
+    margin-top: -22rem;
+    right: 0;
 }

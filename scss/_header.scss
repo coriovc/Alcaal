@@ -34,6 +34,10 @@
 
     .classy-nav-container {
 
+        .logo-head {
+                    width: 150px;
+                }
+    
         .classy-navbar {
 
             .classynav .lang-b {
@@ -213,6 +217,10 @@
         background-color: transparent;
         padding: 0;
 
+        .logo-head {
+                    width: 150px;
+                }
+
         @media #{$breakpoint-xs} {
             padding: 0 15px;
         }
@@ -263,6 +271,7 @@
                     font-size: 18px;
                     text-transform: capitalize;
                     color: $c-gray;
+                    margin: 16px 0;
 
                     &:focus,
                     &:hover {
@@ -440,6 +449,10 @@
                     text-transform: capitalize;
                     color: $c-gray;
 
+                    &.item-menu{
+                    margin: 16px 0;
+                    }
+
                     &:focus,
                     &:hover {
                         color: $dark;                    
@@ -593,12 +606,12 @@
         }
         h2 {
             font-size: 52px;
-            display: block;
+            display: inline-block;
             margin-bottom: 30px;
-            margin-left: 50px;
+            margin-left: 115px;
             color: #D2D2D2;
             font-weight: 400;
-            line-height: 1; 
+            line-height: 1;
 
             @media #{$breakpoint-lg} {
                 font-size: 48px;
@@ -624,6 +637,9 @@
 .classy-nav-container {
     background-color: transparent;
     padding: 0;
+.logo-head {
+                    width: 200px;
+                }
 
     @media #{$breakpoint-xs} {
         padding: 0 15px;
@@ -672,7 +688,7 @@
                 font-size: 18px;
                 text-transform: capitalize;
                 color: $white;
-                margin: 16px 0;
+                margin: 30px 0;
 
                 &:focus,
                 &:hover {
