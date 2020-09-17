@@ -21,6 +21,10 @@
   background-color: #F0F0F0;
 }
 
+.bg-gray-sec-mod{
+  background-color: #F9F9F9;
+}
+
 
 /*:::::::::: section :::::::::::::: */
 .site-section-cover {
@@ -40,11 +44,14 @@
   .site-section-cover .container > .row {
     height: calc(100vh - 196px);
     min-height: 677px; }
-    @media (max-width: 991.98px) {
+
+    @media only screen and (max-width: 767px) {
       .site-section-cover,
       .site-section-cover .container > .row {
-        height: calc(80vh - 196px);
-        min-height: 677px; } }
+        height: calc(50vh - 196px);
+        min-height: 450px; }
+    }
+    
   .site-section-cover.overlay {
     position: relative; }
     .site-section-cover.overlay:before {
@@ -244,8 +251,14 @@
 
 .svg-wave {
   margin-top: 5%;
-    
 }
+
+@media only screen and (max-width: 767px) {
+    .svg-wave {
+      margin-top: 10%;
+    }
+}
+
 .svg-wave svg path {
     fill: #fff;
 }
@@ -368,10 +381,15 @@
 
 
 @media only screen and (max-width: 767px) {
+
+    
+      .circle-img img {
+        height: auto;
+        width: 150px; }
     
       .img-post{
           width: 320px;
-          margin: 65% 0 0 -4%;
+          margin: 70% 0 0 -4%;
           position: absolute;
       }
 
@@ -393,17 +411,14 @@
       }
 
       .img-team{
-          width: 46%;
-          position: absolute;
-          z-index: 2;
-          right: 15rem;
+          width: 85%;
+          right: 2rem;
       }
 
       .img-team-figura{
-          width: 40%;
-          position: absolute;
-          margin: -3rem 0 0 0;
-          right: 0;
+          width: 60%;
+          margin: -2rem 0 0 0;
+          right: -7rem;
       }
 
       .img-ear{
@@ -413,14 +428,14 @@
 
       .img-figura-1{
         width: 200px;
-        margin: 55% 0 0 40%;
+        margin: 65% 0 0 40%;
         position: absolute;
       }
 
 
       .img-figura-2{
           width: 150px;
-          margin: -2% 0 0 0;
+          margin: -6% 0 0 0;
       }
        
 
@@ -535,16 +550,39 @@
 
 /*:::::::::: others :::::::::::::: */
 
+
+.mbot{
+  margin-top: 3rem
+}
+ @media only screen and (max-width: 767px) {
+      .mbot{
+      margin-top: 1.5rem } 
+  }
+
+
 .span-infini{
   background-color: #fff;
     padding-right: 1rem;
     color: #E7CF49;
 }
+  
+  @media only screen and (max-width: 767px) {
+      .span-infini{       
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: inline-block;
+      }
+  }
 
 .about-us-content p {
     line-height: 1.2;
     color: #707070;
     font-size: 18px;
+  }
+
+    @media only screen and (max-width: 767px) {
+      .about-us-content p {
+      font-size: 19px; } 
   }
 
 

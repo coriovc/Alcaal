@@ -1219,13 +1219,9 @@ input:focus {
     margin-bottom: 30px;
     display: block;
     font-weight: 400; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (max-width: 767px) {
       .venture-text h3 {
-        font-size: 18px;
-        margin-bottom: 40px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .venture-text h3 {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 40px; } }
 
 .single-welcome-slide {
@@ -1266,6 +1262,17 @@ input:focus {
   position: relative;
   z-index: 1;
   padding: 5% 3% 5rem 3%; }
+  @media only screen and (max-width: 767px) {
+    .uza-portfolio-area {
+      padding: 2rem 2rem 5rem 2rem; } }
+
+.team-area {
+  position: relative;
+  z-index: 1;
+  padding: 5% 3% 10rem 3%; }
+  @media only screen and (max-width: 767px) {
+    .team-area {
+      padding: 2rem 2rem 10rem 2rem; } }
 
 .al-gro-area {
   position: relative;
@@ -1311,6 +1318,10 @@ input:focus {
   z-index: 1;
   padding: 4% 10%;
   margin-left: 5%; }
+  @media only screen and (max-width: 767px) {
+    .NV-area {
+      padding-top: 4rem;
+      margin-left: 0; } }
   .NV-area .NV-content {
     position: relative;
     z-index: 1; }
@@ -1331,7 +1342,7 @@ input:focus {
         color: #E7CF49; }
       @media only screen and (max-width: 767px) {
         .NV-area .NV-content h2 {
-          font-size: 40px; } }
+          font-size: 25px; } }
     .NV-area .NV-content p {
       margin: 2rem 4rem 0 0;
       line-height: 2;
@@ -1342,6 +1353,11 @@ input:focus {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .NV-area .NV-content p {
           font-size: 12px; } }
+      @media only screen and (max-width: 767px) {
+        .NV-area .NV-content p {
+          font-size: 18px;
+          line-height: 1.5;
+          margin-right: 0; } }
     .NV-area .NV-content a {
       position: relative;
       z-index: 1;
@@ -1360,6 +1376,9 @@ input:focus {
       color: #E7CF49; }
     .NV-area .NV-content .content {
       padding: 2rem 0 2rem 4rem; }
+      @media only screen and (max-width: 767px) {
+        .NV-area .NV-content .content {
+          padding-left: 2%; } }
       .NV-area .NV-content .content .our-link li {
         position: relative;
         z-index: 1;
@@ -1391,7 +1410,7 @@ input:focus {
     @media only screen and (max-width: 767px) {
       .al-group-area .nl-content h2 {
         font-size: 40px;
-        line-height: 1; } }
+        margin-right: 4rem; } }
   .al-group-area .nl-content p {
     margin-bottom: 0;
     line-height: 1.2;
@@ -1414,7 +1433,7 @@ input:focus {
     color: #5D5C60; }
     @media only screen and (max-width: 767px) {
       .our-phil-area .nl-content h2 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 1; } }
   .our-phil-area .nl-content p {
     margin-bottom: 0;
@@ -1425,7 +1444,7 @@ input:focus {
       .our-phil-area .nl-content p {
         font-size: 15px;
         line-height: 1.2;
-        margin: 1.5rem 7rem 0 0; } }
+        margin: 0.5rem 7rem 0 0; } }
 
 .single-portfolio-slide {
   -webkit-transition-duration: 500ms;
@@ -1692,6 +1711,175 @@ input:focus {
       .portfolio-pager a {
         font-size: 16px; } }
 
+.Knows-cards {
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: relative;
+  z-index: 1;
+  width: 250px;
+  height: 450px;
+  padding: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: #ffffff; }
+  @media only screen and (max-width: 767px) {
+    .Knows-cards {
+      width: 100%;
+      height: 200px;
+      padding: 0 1rem;
+      overflow: hidden; } }
+  .Knows-cards.bg {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-size: cover;
+    background-position: center center; }
+    .Knows-cards.bg:focus, .Knows-cards.bg:hover {
+      background-image: none;
+      background-color: #ffffff; }
+  .Knows-cards.img1 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-image: url("./img/bg-img/img-m-1.jpg");
+    background-position-x: -11rem; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards.img1 {
+        background-position-x: 0; } }
+  .Knows-cards.img2 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-image: url("./img/bg-img/img-m-2.jpg");
+    background-position-x: -14rem; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards.img2 {
+        background-position-x: 0; } }
+  .Knows-cards.img3 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-image: url("./img/bg-img/img-m-3.jpg");
+    background-position-x: -29rem; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards.img3 {
+        background-position-x: 0; } }
+  .Knows-cards.img4 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-image: url("./img/bg-img/img-m-3.jpg");
+    background-position-x: -11rem; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards.img4 {
+        background-position-x: 0; } }
+  .Knows-cards img {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto; }
+    .Knows-cards img .degra {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.8547794118) 0%, rgba(0, 0, 0, 0) 100%); }
+  .Knows-cards .overlay-effect {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 1rem;
+    left: 0;
+    z-index: 20;
+    padding: 10px 30px; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards .overlay-effect {
+        padding: 0 20px; } }
+    .Knows-cards .overlay-effect h4 {
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 1.5rem;
+      line-height: 1;
+      margin-bottom: 0; }
+      @media only screen and (max-width: 767px) {
+        .Knows-cards .overlay-effect h4 {
+          font-size: 25px; } }
+    .Knows-cards .overlay-effect h3 {
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      font-weight: 600;
+      color: #ffffff;
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 0; }
+      @media only screen and (max-width: 767px) {
+        .Knows-cards .overlay-effect h3 {
+          font-size: 25px; } }
+    .Knows-cards .overlay-effect p {
+      margin-bottom: 0;
+      line-height: 1.6; }
+      @media only screen and (max-width: 767px) {
+        .Knows-cards .overlay-effect p {
+          font-size: 14px; } }
+  .Knows-cards .view-more-btn a {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E7CF49;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 100;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 25px;
+    color: #ffffff;
+    opacity: 1;
+    visibility: visible; }
+    .Knows-cards .view-more-btn a:focus, .Knows-cards .view-more-btn a:hover {
+      background-color: #D1AC33;
+      color: #ffffff; }
+  .Knows-cards:focus, .Knows-cards:hover {
+    -webkit-box-shadow: 0 6px 50px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 50px 8px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 20; }
+    .Knows-cards:focus .overlay-effect, .Knows-cards:hover .overlay-effect {
+      bottom: 15%;
+      left: 0; }
+      .Knows-cards:focus .overlay-effect h4, .Knows-cards:hover .overlay-effect h4 {
+        color: #5D5C60;
+        margin-left: 4rem; }
+      .Knows-cards:focus .overlay-effect h3, .Knows-cards:hover .overlay-effect h3 {
+        color: #5D5C60;
+        margin-left: 4rem; }
+    .Knows-cards:focus .view-more-btn a, .Knows-cards:hover .view-more-btn a {
+      left: 0;
+      opacity: 0;
+      visibility: hidden; }
+    @media only screen and (max-width: 767px) {
+      .Knows-cards:focus .overlay-effect, .Knows-cards:hover .overlay-effect {
+        bottom: 31%; }
+      .Knows-cards:focus .view-more-btn a, .Knows-cards:hover .view-more-btn a {
+        left: 30px; } }
+
 .slide-group {
   position: relative;
   display: inline-block;
@@ -1951,6 +2139,9 @@ input:focus {
   background-size: cover;
   background-position: top center;
   background-image: url("img/bg-img/img-b-3.jpg"); }
+  @media only screen and (max-width: 767px) {
+    .uza-newsletter-area {
+      padding: 5% 2rem 15rem 2rem; } }
   .uza-newsletter-area .border-line {
     width: 100%;
     height: 1px;
@@ -1964,24 +2155,17 @@ input:focus {
       font-weight: 400;
       margin-bottom: 0;
       color: #5D5C60; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .uza-newsletter-area .nl-content h2 {
-          font-size: 30px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .uza-newsletter-area .nl-content h2 {
-          font-size: 24px; } }
       @media only screen and (max-width: 767px) {
         .uza-newsletter-area .nl-content h2 {
-          font-size: 24px; } }
+          font-size: 35px; } }
     .uza-newsletter-area .nl-content p {
       margin-bottom: 0;
-      line-height: 1.5; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      line-height: 1.5;
+      margin-right: 8rem; }
+      @media only screen and (max-width: 767px) {
         .uza-newsletter-area .nl-content p {
-          font-size: 14px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .uza-newsletter-area .nl-content p {
-          font-size: 12px; } }
+          font-size: 14px;
+          margin-right: 2rem; } }
 
 /* :: 12.0 About CSS */
 .about-us-content {
@@ -2003,6 +2187,9 @@ input:focus {
 
 .item-team {
   padding: 1rem; }
+  @media only screen and (max-width: 767px) {
+    .item-team {
+      padding: 0; } }
   .item-team .card {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -2010,10 +2197,14 @@ input:focus {
     border: 0;
     border-radius: 0.25rem;
     border-radius: 1rem;
-    width: 18rem;
+    width: 15rem;
+    margin: 1rem 2rem;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); }
+    @media only screen and (max-width: 767px) {
+      .item-team .card {
+        margin-bottom: 3rem; } }
     .item-team .card img {
       border-top-left-radius: calc(1rem - 1px);
       border-top-right-radius: calc(1rem - 1px); }
@@ -2021,10 +2212,12 @@ input:focus {
       font-size: 20px;
       font-weight: 400;
       margin: 0;
-      color: #5D5C60; }
+      color: #5D5C60;
+      line-height: 1; }
     .item-team .card .card-body p {
       font-size: 16px;
-      line-height: 1; }
+      line-height: 1;
+      margin-top: 0.5rem; }
     .item-team .card .card-footer {
       background-color: transparent;
       border-top: none; }
@@ -2066,18 +2259,21 @@ input:focus {
       transform: scale(1.05);
       z-index: 20; }
 
-.uza-about-us-area {
+.about-us-area {
   position: relative;
   z-index: 1;
   padding: 0 0 3% 0; }
-  .uza-about-us-area .about-bg-pattern {
+  @media only screen and (max-width: 767px) {
+    .about-us-area {
+      padding: 3% 5%; } }
+  .about-us-area .about-bg-pattern {
     position: absolute;
     width: 40%;
     left: 0;
     bottom: 0;
     z-index: -1;
     height: 100%; }
-    .uza-about-us-area .about-bg-pattern img {
+    .about-us-area .about-bg-pattern img {
       height: 100%;
       width: auto; }
 
@@ -2168,29 +2364,19 @@ input:focus {
 .about-text {
   position: relative;
   z-index: 1; }
-  @media only screen and (max-width: 767px) {
-    .about-text {
-      text-align: center; } }
   .about-text h2 {
     font-size: 86px;
     display: block;
     margin-bottom: 30px;
     color: #5D5C60;
     font-weight: 400;
-    line-height: 1; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .about-text h2 {
-        font-size: 48px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .about-text h2 {
-        font-size: 42px; } }
+    line-height: 1;
+    text-align: right; }
     @media only screen and (max-width: 767px) {
       .about-text h2 {
         font-size: 40px;
-        padding-top: 80px; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .about-text h2 {
-        font-size: 42px; } }
+        padding-top: 30px;
+        text-align: center; } }
     .about-text h2 span {
       color: #E7CF49; }
   .about-text.pri h2 {
@@ -2274,6 +2460,11 @@ input:focus {
   .about-area.padd-team {
     padding: 4rem 0;
     margin-bottom: 7rem; }
+    @media only screen and (max-width: 767px) {
+      .about-area.padd-team {
+        padding: 4rem 0 12rem 0;
+        overflow-x: hidden;
+        margin-bottom: 0; } }
   .about-area .contact-heading {
     position: relative;
     z-index: 1; }
@@ -2573,6 +2764,8 @@ input:focus {
   position: relative;
   z-index: 1;
   padding: 3% 0; }
+  .uza-blog-area .padd-team {
+    padding: 0 2.7rem; }
   .uza-blog-area .blog-bg-curve {
     position: absolute;
     width: auto;
@@ -2585,7 +2778,7 @@ input:focus {
     margin-bottom: 7rem; }
   @media only screen and (max-width: 767px) {
     .uza-blog-area {
-      padding-bottom: 15rem; } }
+      padding-bottom: 17rem; } }
 
 .phill-area {
   position: relative;
@@ -2596,17 +2789,11 @@ input:focus {
   position: relative;
   z-index: 1; }
   .ph-content h2 {
-    font-size: 55px;
+    font-size: 40px;
     display: block;
     font-weight: 400;
     margin-bottom: 0;
     color: #5D5C60; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .ph-content h2 {
-        font-size: 30px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .ph-content h2 {
-        font-size: 24px; } }
     @media only screen and (max-width: 767px) {
       .ph-content h2 {
         font-size: 24px; } }
@@ -2614,12 +2801,9 @@ input:focus {
     margin-bottom: 0;
     line-height: 2;
     font-size: 18px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (max-width: 767px) {
       .ph-content p {
         font-size: 14px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .ph-content p {
-        font-size: 12px; } }
 
 .nl-content {
   position: relative;
@@ -2630,24 +2814,19 @@ input:focus {
     font-weight: 400;
     margin-bottom: 0;
     color: #5D5C60; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .nl-content h2 {
-        font-size: 30px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .nl-content h2 {
-        font-size: 24px; } }
     @media only screen and (max-width: 767px) {
       .nl-content h2 {
-        font-size: 24px; } }
+        font-size: 35px;
+        line-height: 1;
+        margin-bottom: 1rem; } }
   .nl-content p {
     margin-bottom: 0;
-    line-height: 1.5; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    line-height: 1.5;
+    margin-right: 8rem; }
+    @media only screen and (max-width: 767px) {
       .nl-content p {
-        font-size: 14px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .nl-content p {
-        font-size: 12px; } }
+        font-size: 14px;
+        margin-right: 2rem; } }
 
 .single-blog-post {
   position: relative;
@@ -3355,3 +3534,5 @@ input:focus {
   .uza-contact-form textarea.form-control {
     height: 110px;
     padding: 15px; }
+
+/*# sourceMappingURL=style.css.map */

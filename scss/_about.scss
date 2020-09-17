@@ -26,16 +26,24 @@
 .item-team{
     padding: 1rem;
     
+    @media #{$breakpoint-xs} {
+        padding: 0;              
+    }
 
     .card{
         @include transition-duration(500ms);
         border: 0;
         border-radius: 0.25rem;
         border-radius: 1rem;
-        width: 18rem;
+        width: 15rem;
+        margin: 1rem 2rem;
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
+
+        @media #{$breakpoint-xs} {
+            margin-bottom: 3rem;            
+        }
 
         img{
         border-top-left-radius: calc(1rem - 1px);
@@ -47,11 +55,13 @@
                 font-weight: 400;
                 margin: 0;
                 color: $c-gray;
+                line-height: 1;
             }
 
             p{
                 font-size: 16px;
                 line-height: 1;
+                margin-top: 0.5rem;
             }            
         }
 
@@ -118,10 +128,14 @@
 
 
 
-.uza-about-us-area {
+.about-us-area {
     position: relative;
     z-index: 1;
     padding: 0 0 3% 0;
+
+    @media #{$breakpoint-xs} {
+        padding:3% 5%;
+    }
 
     .about-bg-pattern {
         position: absolute;
@@ -262,32 +276,21 @@
 .about-text {
         position: relative;
         z-index: 1;
-        @media #{$breakpoint-xs} {            
-            text-align: center;
-        }
+
         h2 {
             font-size: 86px;
             display: block;
             margin-bottom: 30px;
             color: $c-gray;
             font-weight: 400;
-            line-height: 1;   
-
-            @media #{$breakpoint-lg} {
-                font-size: 48px;
-            }
-
-            @media #{$breakpoint-md} {
-                font-size: 42px;
-            }
+            line-height: 1;
+            text-align: right;  
 
             @media #{$breakpoint-xs} {
                 font-size: 40px;
-                padding-top: 80px;
-            }
+                padding-top: 30px;
+                text-align: center;
 
-            @media #{$breakpoint-sm} {
-                font-size: 42px;
             }
 
             span {
@@ -405,6 +408,14 @@
     &.padd-team{
         padding: 4rem 0;
         margin-bottom: 7rem;
+
+        @media #{$breakpoint-xs} {
+            padding: 4rem 0 12rem 0;
+            overflow-x: hidden;
+            margin-bottom: 0;
+        }
+
+        
     }
 
     .contact-heading{

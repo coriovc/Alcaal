@@ -111,12 +111,8 @@
             display: block;
             font-weight: 400;
 
-            @media #{$breakpoint-lg} {
-                font-size: 18px;
-                margin-bottom: 40px;
-            }
-            @media #{$breakpoint-md} {
-                font-size: 14px;
+            @media #{$breakpoint-xs} {
+                font-size: 16px;
                 margin-bottom: 40px;
             }
         }
