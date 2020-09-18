@@ -1,4 +1,4 @@
-/* :: 19.0 Footer CSS */
+/* :: Footer */
 
 .footer-area {
     position: relative;
@@ -11,6 +11,11 @@
         margin-top: 0;
         }
     .container{
+
+        &.no{
+            margin-top: 1rem !important;
+        }
+
         @media #{$breakpoint-xs} {
         margin-top: 18rem;
         }
@@ -148,27 +153,6 @@
 
             @media #{$breakpoint-lg} {
                 font-size: 20px;
-            }
-        }
-    }
-}
-
-.copywrite-text {
-    position: relative;
-    z-index: 1;
-    margin-top: 20px;
-
-    p {
-        font-size: 16px;
-        color: $secondary;
-        margin-bottom: 0;
-
-        a {
-            color: $secondary;
-
-            &:focus,
-            &:hover {
-                color: $primary;
             }
         }
     }

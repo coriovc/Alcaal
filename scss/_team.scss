@@ -1,4 +1,126 @@
-/* :: 18.0 Team CSS */
+/* :: About team */
+
+.about-area-team {
+    position: relative;
+    z-index: 1;
+    padding: 3% 11%;
+
+    &.padd-team{
+        padding: 4rem 0;
+        margin-bottom: 7rem;
+
+        @media #{$breakpoint-xs} {
+            padding: 4rem 0 12rem 0;
+            overflow-x: hidden;
+            margin-bottom: 0;
+        }
+    }
+
+    @media #{$breakpoint-xs} {
+        padding-bottom: 7rem;
+        margin-top: 0;
+    }
+}
+
+.item-team{
+    padding: 1rem;
+    
+    @media #{$breakpoint-xs} {
+        padding: 0;              
+    }
+
+    .card{
+        @include transition-duration(500ms);
+        border: 0;
+        border-radius: 0.25rem;
+        border-radius: 1rem;
+        width: 15rem;
+        margin: 1rem 2rem;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+
+        @media #{$breakpoint-xs} {
+            margin-bottom: 3rem;            
+        }
+
+        img{
+        border-top-left-radius: calc(1rem - 1px);
+        border-top-right-radius: calc(1rem - 1px);
+        }
+        .card-body{
+            h5{
+                font-size: 20px;
+                font-weight: 400;
+                margin: 0;
+                color: $c-gray;
+                line-height: 1;
+            }
+
+            p{
+                font-size: 16px;
+                line-height: 1;
+                margin-top: 0.5rem;
+            }            
+        }
+
+        .card-footer{
+
+                background-color: transparent;
+                border-top: none;
+                span{
+
+                    &.line{
+                        position: absolute;
+                        margin: -1rem 0 0 0;
+                        height: 3px;
+                        background-color: $primary;
+                        width: 45px;
+                        border-radius: 20%;
+                    }
+                }
+
+                a {
+                    display: inline-block;
+                    color: $primary;
+                    font-size: 25px;
+                    margin-right: 10px;
+                    width: 45px;
+                    height: 45px;
+                    text-align: center;
+                    border-radius: 50%;
+                    line-height: 40px;
+
+                    @media #{$breakpoint-lg} {
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 14px;
+                    }
+
+                    @media #{$breakpoint-xs} {
+                        font-size: 24px;
+                        margin-right: auto;                
+                        width: 35px;
+                        height: 35px;
+                        line-height: 30px;
+                    }
+
+                }
+
+        }
+
+        &:focus,
+        &:hover {
+            @include box-shadow($box-shadow);
+                
+            -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            z-index: 20;
+        }
+    }
+}
 
 .single-team-slide {
     position: relative;
@@ -169,5 +291,15 @@
                 background-color: $primary;
             }
         }
+    }
+}
+
+.team-area {
+    position: relative;
+    z-index: 1;
+    padding: 5% 3% 10rem 3%;
+
+    @media #{$breakpoint-xs} {
+        padding: 2rem 2rem 10rem 2rem;
     }
 }

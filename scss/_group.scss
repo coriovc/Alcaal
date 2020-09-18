@@ -1,0 +1,165 @@
+/* :: About group */
+
+.about-area-hero{
+    padding-top: 10%;
+
+    @media #{$breakpoint-xs} {
+        padding-top: 5rem;
+    }
+}
+
+.about-text {
+        position: relative;
+        z-index: 1;
+
+        @media #{$breakpoint-xs} {
+            padding: 0 2rem;
+        }
+
+        h2 {
+            font-size: 86px;
+            display: block;
+            margin-bottom: 30px;
+            color: $c-gray;
+            font-weight: 400;
+            line-height: 1;
+            text-align: right;  
+
+            @media #{$breakpoint-xs} {
+                font-size: 40px;
+                padding-top: 30px;
+                text-align: center;
+            }
+
+            span {
+                color: $primary;
+            }
+        }
+
+        &.pri h2{
+            color: $primary;
+        } 
+
+        p {
+            margin-bottom: 0;
+            line-height: 1.5;
+            padding-top: 1%;
+            font-size: 26px;
+
+            span{
+                color:$primary;
+                font-weight: 800;
+            }
+
+            @media #{$breakpoint-lg} {
+                font-size: 18px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 12px;
+            }
+            @media #{$breakpoint-xs} {
+                font-size: 15px;
+            }
+        }
+
+        &.phill p{
+            padding-top: 6%;
+        }
+}
+
+.about-area {
+    position: relative;
+    z-index: 1;
+    padding: 3% 11%;
+
+    &.padd-team{
+        padding: 4rem 0;
+        margin-bottom: 7rem;
+
+        @media #{$breakpoint-xs} {
+            padding: 4rem 0 12rem 0;
+            overflow-x: hidden;
+            margin-bottom: 0;
+        }
+    }
+
+    .contact-heading{
+        position: relative;
+        z-index: 1;
+
+        h5 {
+            color: $c-gray;
+            line-height: 1.4;
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+
+    .nl-content {
+        position: relative;
+        z-index: 1;
+        width: 80%;
+
+        @media #{$breakpoint-xs} {
+               width: 100%;
+            }
+
+        h2 {
+            font-size: 40px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $c-gray;
+            margin-bottom: 2%;
+
+            @media #{$breakpoint-lg} {
+                font-size: 30px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 24px;
+                margin-bottom: 6%;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 22px;
+                margin-bottom: 6%;
+            }
+        }
+
+
+        p {
+            margin-bottom: 0;
+            line-height: 2;
+            padding-top: 1%;
+            font-size: 18px;
+
+            span{
+                color:$primary;
+                font-weight: 800;
+
+                @media #{$breakpoint-xs} {
+                font-weight: 400;
+            }
+            }
+
+            @media #{$breakpoint-lg} {
+                font-size: 14px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 12px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media #{$breakpoint-xs} {
+        padding-bottom: 7rem;
+        margin-top: -5rem;
+    }
+}

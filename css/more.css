@@ -48,7 +48,7 @@
     @media only screen and (max-width: 767px) {
       .site-section-cover,
       .site-section-cover .container > .row {
-        height: calc(50vh - 196px);
+        height: calc(100vh - 196px);
         min-height: 450px; }
     }
     
@@ -64,6 +64,13 @@
       background: rgba(0, 0, 0, 0.5);
       z-index: 1; }
 
+  .site-section-cover.the-group {
+      background-image: url('../img/bg-img/img-b-2.jpg') }
+
+      @media only screen and (max-width: 767px) {
+      .site-section-cover.the-group {
+      background-image: url('../img/bg-img/img-b-2-m.jpg') }
+    }
 /* section */
 .section-cover {
   position: relative;
@@ -142,7 +149,7 @@
 }
 
 /*:::::::::: card hover 1 :::::::::::::: */
-
+/*
 .container-card {
     position: absolute;
     width: 100%;
@@ -246,6 +253,8 @@
     font-size:0.9rem;
 }
 
+*/
+
 /*:::::::::: svg path :::::::::::::: */
 
 
@@ -328,22 +337,6 @@
     z-index: 2;
 }
 
-.img-phill-1{
-    width: 50%;
-    position: absolute;
-    z-index: 2;
-    margin-top: -15rem;
-    right: 0;
-}
-
-.img-phill-2{
-    width: 45%;
-    position: absolute;
-    z-index: 2;
-    margin-top: -14rem;
-    margin-left: -2rem;
-    left: 0;
-}
 
 .img-team{
     width: 46%;
@@ -393,23 +386,7 @@
           position: absolute;
       }
 
-      .img-phill-1{
-          width: 50%;
-          position: absolute;
-          z-index: 2;
-          margin-top: -15rem;
-          right: 0;
-      }
-
-      .img-phill-2{
-          width: 45%;
-          position: absolute;
-          z-index: 2;
-          margin-top: -14rem;
-          margin-left: -2rem;
-          left: 0;
-      }
-
+      
       .img-team{
           width: 85%;
           right: 2rem;
@@ -478,6 +455,8 @@
   @media only screen and (max-width: 767px) {
     .parrafo{
       margin-right: -5rem;
+      text-align: center;
+      padding: 0 2rem;
     }
 
     .parrafo-a{
@@ -887,4 +866,88 @@
 .content-hover:hover .face.face2{
     opacity: 1;
     transform: translateY(0px);
+}
+
+
+
+
+
+
+.content-hover-2{
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content-hover-2 .face{
+   
+    transition: 0.5s;
+}
+
+.content-hover-2 .face.face1{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    z-index: 1;
+    transform: translateY(30px);
+}
+
+.content-hover-2:hover .face.face1{
+    transform: translateY(-55px);
+}
+
+
+.content-hover-2 .face.face1 .content{
+    transition: 0.5s;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    opacity: 1;
+}
+
+
+.content-hover-2 .face.face2 .content img{
+    max-width: 60px;
+}
+
+.content-hover-2 .face.face2 .content h3{
+    line-height: 1;
+    padding: 0;
+    color: #5D5C60;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+.content-hover-2 .face.face2 .content p span{
+    color: #E7CF49;
+}
+
+.content-hover-2 .face.face2 .content p{
+    color: #5D5C60;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+
+.content-hover-2 .face.face2{
+    opacity: 1;
+    z-index: 50;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.content-hover-2 .card-footer{
+    border: 0;
+    background-color: #ffffff;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.content-hover-2 .card-footer .uza-btn{
+    padding: 0 20px;
+}
+
+.content-hover-2:hover .face.face2{
+    opacity: 1;
 }

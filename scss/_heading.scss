@@ -1,4 +1,4 @@
-/* :: 4.0 Heading CSS */
+/* ::Heading*/
 
 .section-heading {
     position: relative;
@@ -90,6 +90,53 @@
             z-index: 20;
         }
     }
+
+}
+
+.card-movi{
+    @include transition-duration(500ms);
+    border: 0;
+    
+       
+        .card-body{
+            padding: 1rem 1.5rem 0 1.8rem;
+
+            img{
+                max-width: 60px;
+            }
+
+            h3{
+                margin: 10px 0;
+                padding: 0;
+                color: #5D5C60;
+                text-align: left;
+                font-size: 20px;
+                font-weight: 600;
+                bottom: 0;
+                line-height: 1;
+            }
+
+            p{
+                line-height: 1.5;
+                font-size: 16px;
+                text-align: left;
+                margin: 0;
+            }          
+        }
+
+        .card-footer{
+
+                background-color: transparent;
+                border-top: none;
+                
+                
+        }
+
+        &:focus,
+        &:hover {
+            @include box-shadow($box-shadow);                
+            z-index: 20;
+        }
 
 
 }

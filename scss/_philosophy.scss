@@ -1,0 +1,226 @@
+/* :: philosophy */
+
+.philosophy-area {
+    position: relative;
+    z-index: 1;
+    padding: 3% 0;
+
+    .padd-team{
+        padding: 0 2.7rem;
+    }
+
+    .padd-phill{
+        padding: 4rem 0;
+        margin-bottom: 7rem;
+        
+        @media #{$breakpoint-xs} {
+            padding: 0 3rem;
+            padding-top: 10rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    @media #{$breakpoint-xs} {
+        
+    }
+    
+}
+
+.img-phill-1{
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -15rem;
+    right: 0;
+    @media #{$breakpoint-xs} {
+        width: 85%;
+        margin-top: -22rem;
+    }
+}
+
+.img-phill-2{
+    width: 45%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -14rem;
+    margin-left: -2rem;
+    left: 0;
+
+    @media #{$breakpoint-xs} {
+        width: 80%;
+        margin-top: -21rem;
+    }
+}
+
+
+.philo-area {
+    position: relative;
+    z-index: 1;
+    padding: 3% 0 6% 0;
+
+    @media #{$breakpoint-xs} {
+        padding: 4rem 0;
+    }
+}
+
+
+.philo-content {
+        position: relative;
+        z-index: 1;
+
+        @media #{$breakpoint-xs} {
+        
+        }
+
+        &.mgtop{
+
+            @media #{$breakpoint-xs} {
+                margin-top: 5rem;
+            }
+        }
+
+        h2 {
+            font-size: 40px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $c-gray;
+
+            @media #{$breakpoint-xs} {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 2;
+            font-size: 18px;
+
+            @media #{$breakpoint-xs} {                
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+        }
+}
+
+.philo-area-sec {
+    position: relative;
+    z-index: 1;
+    padding: 3rem 11%;
+
+    &.fin-ph{
+        padding-bottom: 10rem;
+    }
+
+    .text-marg{
+      padding-left: 4rem;  
+      margin-right: 3rem;
+
+        @media #{$breakpoint-xs} {
+            padding-left: 0;  
+            margin-right: 0;
+        }
+
+    }
+
+    
+    .img{
+           display:none;
+
+           @media #{$breakpoint-xs} {
+                display:block;
+                position: absolute;
+                margin-left: -0.5rem;
+            } 
+        }
+
+    .img2{
+           display: inline-block;
+
+           @media #{$breakpoint-xs} {
+            display:none;
+            } 
+        }
+
+    .contact-heading{
+        position: relative;
+        z-index: 1;
+
+        h5 {
+            color: $c-gray;
+            line-height: 1.4;
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+
+    .title-content {
+        position: relative;
+        z-index: 1;
+        text-align: right;
+
+        @media #{$breakpoint-xs} {
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 65px;
+            display: block;
+            margin-bottom: 30px;
+            color: $primary;
+            font-weight: 400;
+            line-height: 1;   
+
+            @media #{$breakpoint-xs} {
+                font-size: 30px;
+                padding-top: 0;
+                margin-right: -2rem;
+                margin-left: 6rem;
+            }
+        }       
+    }
+
+    .nl-content {
+        position: relative;
+        z-index: 1;
+        text-align: left;
+
+        @media #{$breakpoint-xs} {
+            text-align: left;
+        }
+
+        h3 {
+            font-size: 29px;
+            margin: 10px 0;
+            color: #E7CF49;
+            font-weight: 400;
+            line-height: 1;  
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+                padding-top: 10px;
+            }
+        }
+
+
+        p {
+            margin-bottom: 0;
+            line-height: 2;
+            padding-top: 1%;
+            font-size: 18px;
+
+            span{
+                color:$primary;
+                font-weight: 800;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0;
+            }
+        }
+    }
+}
