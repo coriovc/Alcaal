@@ -28,16 +28,18 @@
 
 /*:::::::::: section :::::::::::::: */
 
-.wrapper{
+.wrapper-v{
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
-.wrapper .wrapper__video{
+.wrapper-v .wrapper__video{
   object-fit: cover;
   width: 100%;
   height: 100%;
+  z-index: 0;
+  position: absolute;
 }
 
 .site-section-cover {
