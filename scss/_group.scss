@@ -113,6 +113,10 @@
             color: $c-gray;
             margin-bottom: 2%;
 
+            span{
+                color:$primary;
+            }
+
             @media #{$breakpoint-lg} {
                 font-size: 30px;
             }

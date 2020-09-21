@@ -1,20 +1,96 @@
 {   
-    ".title_nav":{
-        "title" : "Example of lebrain"
+    
+    ".classynav-lang":{
+        "item-1" : "Group companies",
+        "item-2" : "About",
+            "item-2-a" : "The Group",
+            "item-2-b" : "Our Team",
+        "item-3" : "CSR",
+        "item-4" : "Locations",
+        "item-5" : "Contact",
+        "btn-lang" : "ESP"
     },
-    ".section_1":{
-        "section_title" : "Section 1 \"about titles and tables\""
+
+    ".welcome-area-l":{
+        "section_title" : "We know <br> your industry.",
+        "sub-title" : "Innovate solutions"
     },
-    ".card-body":{
-        "card_text_1" : "The h1 tag, you should only use it once per page, because it is recognized by robots as the title of the web, if it does not have a defined goal for the title. For all other titles and subtitles you must use h2 h3 h4 h5 h6.",
-        "card_text_2" : "Avoid placing \"br\" to give space between labels, for that is the css togerger margin and padding, you can use \"br\" to give line breaks (that is its true purpose).",
-        "card_text_3" : "Each page section must be divided by \"sector\" and not by \"div\"",
-        "card_text_4" : "The page must be divided by the corresponding tags \"side, header, footer .etc .etc\"", 
-        "card_text_5" : "You should always avoid placing css inside the page, for that you must use the style sheets.",
-        "card_text_6" : "If you need to work with tables, you must use the labels that a table carries"
+
+    ".categories":{
+        "text-1" : "ALCAAL is an international group offering innovative solutions in the Agribusiness,  International Commerce, Renewables and New Ventures sectors with a focus  on emerging markets."
     },
-    ".section_2":{
-        "section_title" : "Section two on the tables.",
-        "subtitle": "If you have to use tables, you must add the labels for header, footer and body: (thead, tbody, tfoot) <br> tfoot only for cases that require it, example:"
+
+    ".card-indust":{
+        "card-text-1" : "Agribusiness",
+        "card-text-1-p" : "360° advisory capabilities including, land, crop, forestry and industrial plants development in more than 10 countries.",
+        "card-text-1-mov" : "<span>360° advisory capabilities</span> including, land, crop, forestry and industrial plants development in more than 10 countries.",
+        
+        "card-text-2" : "International<br>commerce",
+        "card-text-2-p" : "Over 10 years experience providing a wide range of quality products with consistent excellent service and delivery.",
+        "card-text-2-mov" : "<span>Over 10 years experience</span> providing a wide range of quality products with consistent excellent service and delivery.",
+
+       
+        "card-text-3-p" : "Wind and Solar energy background with international track record and  engineering expertise.",
+        "card-text-3-mov" : "Wind and Solar energy background with international track record and  engineering expertise.",
+
+        "card-text-4-p" : "Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.",
+        "card-text-4-mov" : "Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.",
+
+        "btn-more" : "MORE INFO"
+    },
+
+    ".Know-group":{
+        "sub-title" : "ALCAAL GROUP",
+        "text-title" : "Know all the main companies in the group",
+        "card-text-title-1" : "<h4>Alcaal</h4><h3>Agroindustrial</h3>",
+        "card-text-title-3" : "<h4>Alcaal</h4><h3>International<br>Commerse</h3>",
+        "card-text-title-3-a" : "<h4>Alcaal</h4><h3>International Commerse</h3>",
+        "btn-more" : "MORE INFO"
+    },
+
+    ".section-2016":{
+        "sub-title" : "A SERIOUS BUSINESS PARTNER",
+        "text-title" : "Since 2016, ALCAAL has participated in <span>transactions worth US$ 100 MM.</span><br> Traded volume in <span>2017 has been 10,000 tons.</span>",
+        "btn-2016" : "COMPANY PROFILE" 
+    },
+
+    ".philosophy":{
+        "sub-title" : "OUR PHILOSOPHY",
+        "text-title" : "Corporate social responsibility is <br>in the core of the <span class=\"span-infini\">Groups philosophy.</span>",
+        "text-pa-1" : "Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.",
+        "text-pa-2" : "We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.",
+        "btn-more" : "MORE INFO"
+    },
+
+    ".our-team":{
+        "sub-title" : "OUR TEAM",
+        "text-title" : "ALCAAL has +30 professionals",
+        "text-pa" : "with diverse  backgrounds including engineering, business, investment banking and  investment management.",
+        "btn-team" : "MEET THE TEAM"
+    },
+
+    ".locations":{
+        "sub-title" : "LOCATIONS",
+        "text-title" : "Founded in 2016.",
+        "text-pa" : "ALCAAL  has been expanding continuously reaching 4 out of the 6 continents through its offices and representatives.",
+        "btn-lo" : "LOCATIONS"
+    },
+
+    
+    ".footer":{
+        "sub-title" : "CONTACT",
+        "btn-send" : "SEND",
+
+        "info-text-1" : "Postal Address",
+        "info-text-2" : "Phone",
+
+        "link-text-1" : "Group companies",
+        "link-text-2" : "About",
+        "link-text-3" : "CSR",
+        "link-text-4" : "Locations Contact",
+        "link-text-5" : "Terms and Conditions",
+        "link-text-6" : "Privacy Policy"
     }
+
+
 }

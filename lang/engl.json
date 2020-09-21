@@ -1,0 +1,136 @@
+
+    ".group-comp":{
+        "text-title" : "Alcaal Group",
+        "parrafo" : "Know all the main companies in the group.<br>We offer services in the Agribusiness, International Commerce, Renewables and New Ventures sectors."
+    },
+
+
+
+    ".about-group-hero":{
+        "text-title" : "The<br>group",
+        "text-title-M" : "The group",
+        "parrafo-1" : "ALCAAL offers services in the Agribusiness,<br>International Commerce, Renewables and New<br>Ventures sectors and also combines its expertise in<br> all four to  offer integrated soluctions to our clients.",
+        "parrafo-2" : "ALCAAL offers services in the Agribusiness, International Commerce, Renewables and New Ventures sectors and also combines its expertise in all four to  offer integrated soluctions to our clients."
+    },
+
+    ".about-group-1":{
+        "sub-title" : "ABOUT",
+        "text-title" : "Since 2016, ALCAAL has participated in <span>transactions worth US$ 100 MM.</span><br>Traded volume in <span>2017 has been 10,000 tons.</span>",
+        "parrafo-1" : "<span>Team</span> of highly specialized individuals with unique backgrounds and proven track record.<br>With offices in Buenos Aires, Montevideo, Luanda, St. Petersburg and Dubai, and representatives with<br>a diverse range of backgrounds and skills, ALCAAL Group has the ability to combine global coverage<br>with local expertise to provide best of breed tailormade solutions to meet our clients needs.",
+        "parrafo-2" : "<span>Team of highly specialized</span> individuals with unique backgrounds and proven track record.<br><span>Global coverage</span> through its offices in Latin  America and Middle East and through its  representatives in Europe and Africa.",
+        "btn-1" : "MEET THE TEAM",
+
+        "parrafo-3" : "Its <span>agile structure</span> and unmatched global network allows <span>ALCAAL</span> to address complex situations and deliver fast, practically everywhere.",
+        "parrafo-4" : "<span>Integrated solutions</span> based on combining expertise in the  Agribusiness, Financial Services, Renewables and International Commerce sectors.",
+        "parrafo-5" : "Unlike other boutiques, ALCAAL has quick access to <span>capital and capacity</span> to provide debt and equity financing.",
+        "title-2" : "WE DELIVER RESULTS.",
+        "btn-2" : "LET´S TALK"
+    },
+
+
+
+
+    ".philo-area":{
+        "text-title-D" : "Our<br>philosophy",
+        "parrafo-D" : "Over 10 years of Voluntary services<br>and Sustentability activities and<br>projects in Africa and Argentina.",
+        "text-title-M" : "Our philosophy",
+        "parrafo-M" : "Over 10 years of Voluntary services and Sustentability activities and projects in Africa and Argentina."
+    },
+
+    ".philosophy-area":{
+        "text-title-1" : "Sustainability",
+        "parrafo-1" : "We believe in driving businesses that contribute to the sustainable development of our environment. Our working guidelines are aligned with the care of the community and the environment: we encourage our collaborators, suppliers and clients to embrace our principles.",
+        "text-title-2" : "Our values ​​in action.",
+        "parrafo-2" : "We support initiatives with a positive impact on education, employment, housing, health and community development. Our strategy follows the Sustainable Development Goals (SDG) defined by the United Nations within the Millenium Development Goals."
+    },
+
+    ".philo-lang-1":{
+        "text-title" : "End of poverty, greater equality",
+        
+        "sub-title-1" : "Techo para mi pais (roof for my country)",
+        "parrafo-1" : "The NGO is present in 19 Latin American countries. Their objective is to help overcome the situation of poverty in which millions of people are living in popular settlements through programs to improve precarious housing.",
+        
+        "sub-title-2" : "El Camino a Jericó",
+        "parrafo-2" : "Argentine organization that assists homeless people, giving them temporary lodging where they provide therapeutic and health support to achieve their recovery.",
+        
+        "sub-title-3" : "Fundación Progresar",
+        "parrafo-3" : "Argentine NGO, present in Derqui, Pilar. Oriented to personal and social development through education and community strengthening programs."
+    },
+
+    ".philo-lang-2":{
+        "text-title" : "Quality education",
+        
+        "sub-title-1" : "Residuca Foundation",
+        "parrafo-1" : "Argentine NGO that seeks to reduce high school dropouts through personal development and job training programs.",
+        
+        "sub-title-2" : "Fundación Patagonia",
+        "parrafo-2" : "Argentine NGO for agro-technical training in rural areas.",
+        
+        "sub-title-3" : "Rio Muerto School",
+        "parrafo-3" : "Educational establishment in Chaco that receives students from rural and vulnerable areas.",
+
+        "sub-title-4" : "Mother Teresa School",
+        "parrafo-4" : "Educational institution that receives students in vulnerable conditions and provides omprehensive support to their families."
+    },
+
+    ".philo-lang-3":{
+        "text-title" : "Health & Wellness",
+        
+        "sub-title-1" : "Austral Solidarity Hospital",
+        "parrafo-1" : "High complexity hospital built to deal with COVID-19 pandemic. It has a capacity of 60 intensive care beds and is intended for vulnerable people without medical insurance.",
+        
+        "sub-title-2" : "Covid 19 Donation",
+        "parrafo-2" : "Fabricación y donación de 4000 elementos de protección personal (mascaras) para distintas instituciones públicas y privadas del país. De esta manera se pudo proteger al personal de salud para que pueda hacer su trabajo de una manera más segura",
+        "parrafo-2-a" : "Production and donation of 4000 personal protective equipment (face masks) for both public and private institutions in Argentina. In this way, we were able to protect health personnel and improve their safety during work.",
+    },
+
+
+
+
+    ".locations-area-hero":{
+        "text-title-D" : "Around<br>the world",
+        "text-title-M" : "Around the world",
+        "parrafo" : "ALCAAL has been expanding continuously reaching 4 out of the 6 continents through its offices in Buenos Aires, Montevideo, Luanda, St. Petersburg and Dubai."
+    },
+
+    ".locations-area":{
+        "sub-title" : "LOCATIONS",
+        "sub-title-1" : "Postal Address",
+        "sub-title-2" : "Phone"
+    },
+
+
+
+    
+    ".New-ven-hero":{
+        "title" : "New Ventures",
+        "sub-title" : "Alcaal 3D Printing unit, ALTANA 3D, is the largest<br>Additive Manufacturing center in Argentina."
+    },
+
+    ".New-ven-area":{
+        "title-1" : "Alcaal 3D Printing unit, <span>Altana 3D.</span>",
+        "parrafo-1" : "ALTANA 3D, is the largest Additive Manufacturing center in Argentina focused on the medical field.<br> Altana 3D works on demand, using cutting edge technology to provide innovative tools that benefit both health professionals and patients. Its core business is the production of anatomical models applied in surgery planning.",
+        "title-2" : "Alcaal Real Estate.",
+        "parrafo-2" : "Alcaal Real Estate provides development, construction and management solutions for high end commercial and residential Real Estate. We provide integral turnkey solutions for institutional and high net worth investors in Latam and Africa."
+    },
+
+
+
+
+    ".audana-hero":{
+        "title" : "Audana",
+        "sub-title" : "International trade and financial services."
+    },
+
+    ".audana-area":{
+        "title" : "<span>Over 10 years experience</span> providing a wide rangeof quality products with consistent excellent service and delivery.",
+        "parrafo-1" : "Private trading unit which has achieved partner´s respect based on the consistency and efficiency of its services.",
+        "parrafo-2" : "Present in all activities related to international trade: purchases, sales, storage, exclusive agency, administrative, logistics procedures and support, including the capacity to execute sophisticated international trading operations.",
+        
+        "list-1" : "Committed to providing high quality services and products.",
+        "list-2" : "Covering most Trade Channels.",
+        "list-3" : "On-time deliveries are our priority.",
+        "list-4" : "Working closely with main Shipping lines and Suppliers to ensure effective distribution.",
+        "list-5" : "Meeting the specific daily needs of every market we get through.",
+        "list-6" : "Creating profitable business opportunities to our customers."
+    },

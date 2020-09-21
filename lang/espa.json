@@ -1,0 +1,129 @@
+    ".group-comp":{
+        "text-title" : "Alcaal Group",
+        "parrafo" : "Conoce las principales compañías del grupo.<br>Ofrecemos soluciones innovadoras en los sectores de Agronegocios, Comercio Internacional y Energías Renovables con foco en mercados emergentes."
+    },
+
+
+
+    ".about-group-hero":{
+        "text-title" : "El<br>grupo",
+        "text-title-M" : "El grupo",
+        "parrafo-1" : "ALCAAL GROUP ofrece servicios en los sectores de Agronegocios, <br>Comercio Internacional, Energías Renovables y <br>Nuevos Negocios; ofreciendo así una solución integral combinando su experiencia<br>en los cuatros sectores.",
+        "parrafo-2" : "ALCAAL GROUP ofrece servicios en los sectores de Agronegocios, Comercio Internacional, Energías Renovables y Nuevos Negocios; ofreciendo así una solución integral combinando su experiencia en los cuatros sectores."
+    },
+
+    ".about-group-1":{
+        "sub-title" : "ACERCA DE",
+        "text-title" : "Desde 2016, ALCAAL ha participado en <span>transacciones por valor de US $ 100 MM.</span><br>El volumen comercializado en <span>2017 ha sido de 10.000 toneladas.</span>",
+        "parrafo-1" : "<span>Nuestro equipo</span> altamente calificado tiene una vasta experiencia en todas y cada una de las etapas de la ejecución de los proyectos. Con oficinas en Buenos Aires, Montevideo, Luanda, San Petersburgo y Dubai, y representantes con una amplia gama de antecedentes y habilidades, ALCAAL Group tiene la capacidad de combinar la cobertura global con la experiencia local para brindar las mejores soluciones a medida para satisfacer las necesidades de nuestros clientes.",
+        "parrafo-2" : "<span>Nuestro equipo altamente especializadas</span> con antecedentes únicos y un historial probado.<br><span>Cobertura global</span> a través de sus oficinas en América Latina y Medio Oriente y a través de sus representantes en Europa y África .",
+        "btn-1" : "CONOCE EL GRUPO",
+
+        "parrafo-3" : "Su <span>estructura ágil</span> y su red global incomparable permiten que <span>ALCAAL</span> aborde situaciones complejas y entregue rápidamente, prácticamente en todas partes.",
+        "parrafo-4" : "<span>Soluciones integradas</span> basadas en la combinación de experiencia en los sectores de Agronegocios, Servicios Financieros, Renovables y Comercio Internacional.",
+        "parrafo-5" : "ALCAAL tiene acceso rápido a capital y capacidad para proporcionar financiamiento de deuda y capital.",
+        "title-2" : "ENTREGAMOS RESULTADOS.",
+        "btn-2" : "HABLEMOS"
+    },
+
+
+
+
+
+    ".philo-area":{
+        "text-title-D" : "Nuestra<br>filosofia",
+        "parrafo-D" : "Más de 10 años de actividades y proyectos de voluntariado<br> y sostenibilidad en África y Argentina.",
+        "text-title-M" : "Nuestra filosofia",
+        "parrafo-M" : "Más de 10 años de actividades y proyectos de voluntariado y sostenibilidad en África y Argentina."
+    },
+
+    ".philosophy-area":{
+        "text-title-1" : "Sustentabilidad",
+        "parrafo-1" : "Creemos en conducir negocios que aporten al desarrollo sustentable  de nuestro entorno. Para ello, trabajamos alineados con el cuidado de la comunidad y del medio ambiente: alentamos a colaboradores, proveedores y clientes a abrazar nuestros principios.",
+        "text-title-2" : "Nuestros valores, en acción",
+        "parrafo-2" : "Apoyamos iniciativas con impacto positivo en educación, empleo, vivienda, salud y desarrollo comunitario. Nuestra estrategia acompaña los Objetivos de Desarrollo Sostenible (ODS) definidos por Naciones Unidas para el milenio."
+    },
+
+    ".philo-lang-1":{
+        "text-title" : "Fin de la pobreza",
+        
+        "sub-title-1" : "Techo para mi pais (roof for my country)",
+        "parrafo-1" : "ONG presente en 19 países de América Latina. Busca superar la situación de pobreza que viven millones de personas en asentamientos populares a través de programas para la mejora de vivienda precaria.",
+        
+        "sub-title-2" : "El Camino a Jericó",
+        "parrafo-2" : "Organización argentina orientada a asistir a personas en situación de calle a través de hogares de tránsito y hospedaje donde proveen acompañamiento terapéutico y de salud para lograr su recuperación.",
+        
+        "sub-title-3" : "Fundación Progresar",
+        "parrafo-3" : "ONG argentina, presente en Derqui, Pilar. Orientada al desarrollo personal y social a través de programas de educación y de fortalecimiento de la comunidad."
+    },
+
+    ".philo-lang-2":{
+        "text-title" : "Educación de calidad",
+        
+        "sub-title-1" : "Residuca Foundation",
+        "parrafo-1" : "ONG argentina que busca disminuir la deserción escolar de la escuela secundaria a través de programas de desarrollo personal y de formación de empleo.",
+        
+        "sub-title-2" : "Fundación Patagonia",
+        "parrafo-2" : "ONG argentina para la formación agro técnica en zonas rurales.",
+        
+        "sub-title-3" : "ESCUELA RIO MUERTO",
+        "parrafo-3" : "Establecimiento educativo en Chaco que recibe alumnos de zonas rurales y vulnerables.",
+
+        "sub-title-4" : "COLEGIO MADRE TERESA",
+        "parrafo-4" : "Institución educativa que recibe a alumnos en condiciones de vulnerabilidad y realiza un acompañamiento integral a sus familias."
+    },
+
+    ".philo-lang-3":{
+        "text-title" : "Salud y bienestar",
+        
+        "sub-title-1" : "HOSPITAL SOLIDARIO AUSTRAL",
+        "parrafo-1" : "Hospital de alta complejidad construido para hacer frente a la emergencia sanitaria del COVID-19. Posee capacidad de 60 camas de terapia intensiva y está destinado a personas vulnerables sin cobertura médica.",
+        
+        "sub-title-2" : "Covid 19 Donation",
+        "parrafo-2" : "Fabricación y donación de 4000 elementos de protección personal (mascaras) para distintas instituciones públicas y privadas del país. De esta manera se pudo proteger al personal de salud para que pueda hacer su trabajo de una manera más segura",
+        "parrafo-2-a" : "Production and donation of 4000 personal protective equipment (face masks) for both public and private institutions in Argentina. In this way, we were able to protect health personnel and improve their safety during work.",
+    },
+
+
+
+    ".locations-area-hero":{
+        "text-title-D" : "Around<br>the world",
+        "text-title-M" : "Around the world",
+        "parrafo" : "ALCAAL has been expanding continuously reaching 4 out of the 6 continents through its offices in Buenos Aires, Montevideo, Luanda, St. Petersburg and Dubai."
+    },
+
+    ".locations-area":{
+        "sub-title" : "LOCATIONS",
+        "sub-title-1" : "Postal Address",
+        "sub-title-2" : "Phone"
+    },
+
+    
+    ".New-ven-hero":{
+        "sub-title" : "La unidad de impresión 3D de Alcaal, ALTANA 3D, es la más grande<br>Centro de Fabricación Aditiva en Argentina."
+    },
+
+    ".New-ven-area":{
+        "parrafo-1" : "ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.<br> Altana 3D trabaja bajo demanda, utilizando tecnología de punta para proporcionar herramientas innovadoras que benefician tanto a los profesionales de la salud como a los pacientes. Su actividad principal es la producción de modelos anatómicos aplicados en la planificación quirúrgica.",
+        "parrafo-2" : "Alcaal Real Estate proporciona soluciones de desarrollo, construcción y administración para bienes raíces comerciales y residenciales de alto nivel. Brindamos soluciones integrales llave en mano para inversores institucionales y de alto patrimonio en Latam y África."
+    },
+
+
+
+
+    ".audana-hero":{
+        "sub-title" : "International trade and financial services."
+    },
+
+    ".audana-area":{
+        "title" : "<span>Más de 10 años de experiencia</span> brindando una amplia gama de productos de calidad con excelente servicio y entrega.",
+        "parrafo-1" : "Unidad comercial privada que ha logrado el respeto de los socios basado en la consistencia y eficiencia de sus servicios.",
+        "parrafo-2" : "Presente en todas las actividades relacionadas con el comercio internacional: compras, ventas, almacenamiento, agencia exclusiva, trámites administrativos, logísticos y soporte, incluyendo la capacidad para ejecutar sofisticadas operaciones de comercio internacional.",
+        
+        "list-1" : "Comprometidos con brindar servicios y productos de alta calidad.",
+        "list-2" : "Cubriendo la mayoría de los canales comerciales.",
+        "list-3" : "Las entregas a tiempo son nuestra prioridad.",
+        "list-4" : "Trabajando en estrecha colaboración con las principales líneas navieras y proveedores para garantizar una distribución eficaz.",
+        "list-5" : "Satisfacer las necesidades diarias específicas de cada mercado que atravesamos.",
+        "list-6" : "Creando oportunidades de negocio rentables para nuestros clientes."
+    },

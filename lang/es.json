@@ -1,20 +1,96 @@
 {   
-    ".title_nav":{
-        "title" : "Ejemplo de lebrain"
+    
+    ".classynav-lang":{
+        "item-1" : "El Grupo",
+        "item-2" : "Acerca nuestro",
+            "item-2-a" : "The Group",
+            "item-2-b" : "Our Team",
+        "item-3" : "Sustentabilidad",
+        "item-4" : "Ubicación",
+        "item-5" : "Contacto",
+        "btn-lang" : "ENG"
     },
-    ".section_1":{
-        "section_title" : "Seccion 1 \"sobre los titulos y tablas\"."
+
+    ".welcome-area-l":{
+        "section_title" : "Conocemos <br> tu industria.",
+        "sub-title" : "Soluciones innovadoras"
     },
-    ".card-body":{
-        "card_text_1" : "La etiqueta h1, solo debes usarla una vez por pagina, porque es la reconocen los robot como el titlo de la web, si no tiene una meta definido para el titulo. Para todos los demas titulos y subtitulos debes usar, h2 h3 h4 h5 h6.",
-        "card_text_2" : "Evita colocar \"br\" para dar espacio entre etiquetas para eso esta el css agergar margen y padding, puedes usar \"br\" para dar saltos de linea (ese es su verdadero proposito).",
-        "card_text_3" : "Cada seccion de pagina debe estar divida por \"section\" y no por \"div\"",
-        "card_text_4" : "La pagina debe estar dividida por las estiquetas que corresponden \"side , header, footer .etc .etc\"", 
-        "card_text_5" : "Simpre debes evitar colocar css dentro de la pagina, para eso debes usar las hojas de estilo",
-        "card_text_6" : "Si necesitas trabajar con trablas, debes usar las etiqutas que lleva una tabla"
+
+    ".categories":{
+        "text-1" : "ALCAAL es un grupo internacional que ofrece soluciones innovadoras en los sectores de Agronegocios, Comercio Internacional y Energías Renovables con foco en mercados emergentes."
     },
-    ".section_2":{
-        "section_title" : "Seccion dos sobre las tablas",
-        "subtitle": "Si tienes que usar tablas, debes agregar las equetas para cabecera, footer y cuerpo: (thead, tbody, tfoot) <br> tfoot solo para casos que lo requieran  ejemplo:"
+
+    ".card-indust":{
+        "card-text-1" : "Agroindustria",
+        "card-text-1-p" : "Asesoramiento 360°, que incluye el desarrollo de plantas industriales, forestales, agrícolas y de tierras en más de 10 países.",
+        "card-text-1-mov" : "<span>Asesoramiento 360°, </span>que incluye el desarrollo de plantas industriales, forestales, agrícolas y de tierras en más de 10 países.",
+        
+        "card-text-2" : "Trade <br> internacional",
+        "card-text-2-p" : "Más de 10 años de experiencia brindando una amplia gama de productos de calidad con excelente servicio y entrega.",
+        "card-text-2-mov" : "<span>Más de 10 años de experiencia</span brindando una amplia gama de productos de calidad con excelente servicio y entrega.",
+
+        
+        "card-text-3-p" : "Energía eólica y solar con trayectoria internacional y experiencia en ingeniería.",
+        "card-text-3-mov" : "Energía eólica y solar con trayectoria internacional y experiencia en ingeniería.",
+
+        
+        "card-text-4-p" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
+        "card-text-4-mov" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
+
+        "btn-more" : "MÁS INFO"
+    },
+
+    ".Know-group":{
+        "text-title" : "Conoce las principales compañías del grupo.",
+        "card-text-title-1" : "<h4>Alcaal</h4><h3>Agroindustria</h3>",
+        "card-text-title-3" : "<h4>Alcaal</h4><h3>Trade <br> internacional</h3>",
+        "card-text-title-3-a" : "<h4>Alcaal</h4><h3>Trade internacional</h3>",
+        "btn-more" : "MÁS INFO"
+    },
+
+    ".section-2016":{
+        "sub-title" : "UN SOCIO COMERCIAL SERIO",
+        "text-title" : "Desde 2016, ALCAAL ha participado en <span>transacciones por valor de US $ 100 MM.</span><br> El volumen comercializado en <span>2017 ha sido de 10.000 toneladas.</span>",
+        "btn-2016" : "COMPANY PROFILE" 
+    },
+
+    ".philosophy":{
+        "sub-title" : "NUESTRA FILOSOFÍA",
+        "text-title" : "La responsabilidad social corporativa es <br> el núcleo de la filosofía de <span class=\"span-infini\">Grupos. </span>",
+        "text-pa-1" : "Más de 10 años de actividades y proyectos de voluntariado y sostenibilidad en África y Argentina.",
+        "text-pa-2" : "Desarrollamos y promovemos soluciones sostenibles inspiradas en nuestros valores fundamentales de integridad, diversidad y solidaridad que dan forma a nuestra cultura corporativa y política de responsabilidad social.",
+        "btn-more" : "MÁS INFO"
+    },
+
+    ".our-team":{
+        "sub-title" : "Nuestro Equipo",
+        "text-title" : "ALCAAL tiene +30 profesionales",
+        "text-pa" : "con diversos antecedentes que incluyen ingeniería, negocios, banca de inversión y gestión de inversiones.",
+        "btn-team" : "CONOCE AL EQUIPO"
+    },
+
+    ".locations":{
+        "sub-title" : "UBICACIÓN",
+        "text-title" : "Fundada en 2016.",
+        "text-pa" : "ALCAAL se ha expandido continuamente alcanzando 4 de los 6 continentes.",
+        "btn-lo" : "Ubicación"
+    },
+
+
+    ".footer":{
+        "sub-title" : "CONTACTO",
+        "btn-send" : "Enviar",
+
+        "info-text-1" : "Postal Address",
+        "info-text-2" : "Phone",
+
+        "link-text-1" : "El grupo",
+        "link-text-2" : "Acerca nuestro",
+        "link-text-3" : "Sustentabilidad",
+        "link-text-4" : "Ubicación Contacto",
+        "link-text-5" : "Términos y Condiciones",
+        "link-text-6" : "Política de privacidad"
     }
+
+
 }

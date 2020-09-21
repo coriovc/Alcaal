@@ -975,6 +975,8 @@ input:focus {
       margin-bottom: 0;
       color: #5D5C60;
       margin-bottom: 2%; }
+      .about-area .nl-content h2 span {
+        color: #E7CF49; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .about-area .nl-content h2 {
           font-size: 30px; } }
