@@ -64,27 +64,6 @@
     }
 }
 
-.login-register-btn {
-    a {
-        display: inline-block;
-
-        span {
-            @include transition-duration(500ms);
-            color: $secondary;
-
-            &:focus,
-            &:hover {
-                color: $primary;
-            }
-        }
-
-        &:focus,
-        &:hover {
-            color: $primary;
-        }
-        
-        @media #{$breakpoint-lg} {
-            font-size: 14px;
-        }
-    }
+.btn{
+    box-shadow: none;
 }

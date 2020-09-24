@@ -268,7 +268,7 @@
 
 
     <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-area footer" style="background-image: url('img/bg-img/footer.svg')">
+    <footer class="footer-area" style="background-image: url('img/bg-img/footer.svg')">
         <div class="container">
             <div class="row">
                 <!-- Contact Footer Widget -->
@@ -276,8 +276,8 @@
                   <div class="single-footer-widget">
                     <div class="card border-0 shadow-lg">
                         <div class="card-body uza-contact-form">
-                            <div class="contact-heading">
-                            <h5 key="sub-title">CONTACT<span class="line-primary line-c"></span></h5>
+                            <div class="contact-heading footer">
+                            <h5 key="sub-title">CONTACT</h5><span class="line c"></span>
                             </div>
                             <form id="contact_form" action="#" method="post">
                             <div class="row">
@@ -301,6 +301,10 @@
                                 </div>
                             </div>
                         </form>                            
+                        </div>
+                        <div class="contact-Thakns">
+                            <h2>Thank you very much!</h2>
+                            <p>The form was sent successfully, In the near future we will contact.</p>
                         </div>                        
                     </div>
                   </div>
@@ -311,16 +315,16 @@
                     <img src="img/logo-w-t.png" alt="" width="180">
                     <div class="single-footer-widget mt-3">                        
                         <!-- Footer Content -->
-                        <div class="footer-content mb-15">
-                            <p key="info-text-1" class="sub">Postal Address</p>
+                        <div class="footer-content mb-15 footer">
+                            <p key="hola-1" class="sub">Postal Address</p>
                             <p>Av. del Libertador 7766 • 12  01<br> C1429BMX • CABA • Argentina</p>
                         </div>
                         <div class="footer-content mb-15">
                             <p class="sub">E-mail</p>
                             <p>info@alcaal.com</p>
                         </div>
-                        <div class="footer-content mb-15">
-                            <p key="info-text-2" class="sub">Phone</p>
+                        <div class="footer-content mb-15 footer">
+                            <p key="hola-2" class="sub">Phone</p>
                             <p>+ 54 11 4519 0477</p>
                         </div>
                     </div>
@@ -329,7 +333,7 @@
                 <!-- Single Footer Widget -->
                 <div class="col-6 col-sm-6 col-lg-4">
                     <div class="single-footer-widget">
-                        <div class="footer-social-info mb-4">
+                        <div class="footer-social-info mb-4" style="opacity: 0; visibility: hidden;">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
@@ -339,19 +343,19 @@
                         <!-- Nav -->
                         <nav>
                             <ul class="our-link">
-                                <li><a key="link-text-1" href="Group-companies.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Group companies</a></li>
-                                <li><a key="link-text-2" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>About</a></li>
-                                <li><a key="link-text-3" href="Philosophy.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>CSR</a></li>
-                                <li><a key="link-text-4" href="Locations.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Locations Contact</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-1" href="Group-companies.html">Group companies</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-2" href="About-group.html">About</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-3" href="Philosophy.html">CSR</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-4" href="Locations.html">Locations Contact</a></li>
                                 <br>
-                                <li><a key="link-text-5" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Terms and Conditions</a></li>
-                                <li><a key="link-text-6" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Privacy Policy</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-5" href="terms-and-conditions.html">Terms and Conditions</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-6" href="privacy-policy.html">Privacy Policy</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -360,6 +364,7 @@
         </div>
     </footer>
     <!-- ***** Footer Area End ***** -->
+    
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
     <script src="js/jquery.min.js"></script>

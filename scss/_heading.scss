@@ -128,13 +128,12 @@
 
                 background-color: transparent;
                 border-top: none;
-                
-                
+
         }
 
         &:focus,
         &:hover {
-            @include box-shadow($box-shadow);                
+
             z-index: 20;
         }
 

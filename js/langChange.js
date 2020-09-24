@@ -3,6 +3,18 @@
 var language = localStorage.getItem('language');
 var default_lang = 'es';
 
+$(document).on('click', '.langClass', function() {
+  var lang = $(this).attr('data-lang');
+  setLanguage(lang);
+  if(lang == "es"){
+    $(this).html("ENG");
+    $(this).attr('data-lang','en');
+  }else{
+    $(this).html("ESP");
+    $(this).attr('data-lang','es');
+  }
+});
+
 function setLanguage(lang) {
     localStorage.setItem('language', lang);
     language = localStorage.getItem('language');

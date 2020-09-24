@@ -308,4 +308,10 @@ jQuery(document).ready(function () {
             jQuery(this).addClass("active")
 
           });
-        });
+          jQuery(".card-deck .sl-c").hover(function () {
+
+            jQuery('.card-deck .sl-c').removeClass("active")
+            jQuery(this).addClass("active")
+
+          });
+    });

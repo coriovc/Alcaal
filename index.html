@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,8 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/more.css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body id="top">
     
@@ -70,7 +71,9 @@
                                       <li><a class="link" href="https://www.alcaalrenovables.com/" target="_blank">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Alcaal Renovables</a></li>
                                       <li><a class="link" href="Audana.html">
-                                        <i class="arrow_right-up icon-zise mr-2"></i>Audana Logistic IEP Global</a></li>
+                                        <i class="arrow_right-up icon-zise mr-2"></i>Audana Logistic</a></li>
+                                      <li><a class="link" href="http://iep.global/" target="_blank">
+                                        <i class="arrow_right-up icon-zise mr-2"></i>IEP Global</a></li>
                                       <li><a class="link" href="NewVentures.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Alcaal Real Estate</a></li>
                                       <li><a class="link" href="http://www.altana3d.com/" target="_blank">
@@ -108,13 +111,13 @@
 
                       </ul>
                             <div class="lang-b ml-4 d-none d-xl-flex classynav-lang">
-                                <a  class="btn uza-btn btn-lang" key="btn-lang" onclick="setLanguage('es')">ESP</a>
+                                <a  class="btn uza-btn btn-lang langClass" key="btn-lang" data-lang="es">ESP</a>
                             </div>
                         
                         <div class="d-block d-xl-none">
                             <hr>
                             <label class="switch-lang">
-                              <input type="checkbox">
+                              <input class="langClass" type="checkbox" data-lang="es">
                               <div></div>
                             </label>
                             <hr>
@@ -143,7 +146,7 @@
           <div class="row align-items-center">
             <!-- Welcome Text -->
             <div class="col">
-              <div class="welcome-text text-center welcome-area-l">
+              <div class="welcome-text text-center welcome-area-l" data-aos="fade-up">
                 <h2 key="section_title">We know<br>your industry.</h2>                 
               </div>
             </div>
@@ -173,7 +176,7 @@
             <div class="row align-items-center">
                 <!-- About Us Content -->
                 <div class="col-12 col-md-6 mt-5">
-                    <div class="about-us-content mb-50 categories">
+                    <div class="about-us-content mb-50 categories" data-aos="fade-right">
                         <p key="text-1">ALCAAL is an international group offering innovative solutions in the Agribusiness,  International Commerce, Renewables and New Ventures sectors with a focus  on emerging markets.</p>                        
                     </div>
                 </div>
@@ -186,7 +189,7 @@
 
             
 
-            <div class="row align-items-center d-none d-xl-flex card-indust">
+            <div class="row align-items-center d-none d-xl-flex">
                 <div class="col">
                     <div class="card card-fond">
                       <div class="row justify-content-center ind-items">    
@@ -194,20 +197,20 @@
                         <!-- ****** Card industrias ****** -->
                         <div class="content-hover">
                             <div class="face face1">
-                                <div class="content">
+                                <div class="content card-indust">
                                     <img src="img/icon-img/1.png">
                                     <h3 key="card-text-1">Agribusiness</h3>
                                 </div>
                             </div>
                             <div class="card shadow face face2">
                               <div class="card-body">
-                                  <div class="content">
+                                  <div class="content card-indust">
                                     <img src="img/icon-img/1.png">
                                     <h3 key="card-text-1">Agribusiness</h3>
                                     <p key="card-text-1-p">360° advisory capabilities including, land, crop, forestry and industrial plants development in more than 10 countries.</p>
                                   </div>
                               </div>
-                              <div class="card-footer text-center">
+                              <div class="card-footer text-center card-indust">
                                   <a key="btn-more" href="http://www.alcaalagro.com/" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                               </div>
                             </div>
@@ -216,20 +219,20 @@
                         <!-- ****** Card industrias ****** -->
                         <div class="content-hover">
                             <div class="face face1">
-                                <div class="content">
+                                <div class="content card-indust">
                                     <img src="img/icon-img/2.png">
                                     <h3 key="card-text-2">International<br>commerce</h3>
                                 </div>
                             </div>
                             <div class="card shadow face face2">
                               <div class="card-body">
-                                  <div class="content">
+                                  <div class="content card-indust">
                                     <img src="img/icon-img/2.png">
                                     <h3 key="card-text-2">International<br>commerce</h3>
                                     <p key="card-text-2-p">Over 10 years experience providing a wide range of quality products with consistent excellent service and delivery.</p>
                                   </div>
                               </div>
-                              <div class="card-footer text-center">
+                              <div class="card-footer text-center card-indust">
                                   <a key="btn-more" href="Audana.html" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                               </div>
                             </div>
@@ -238,20 +241,20 @@
                         <!-- ****** Card industrias ****** -->
                         <div class="content-hover">
                             <div class="face face1">
-                                <div class="content">
+                                <div class="content card-indust">
                                     <img src="img/icon-img/3.png">
-                                    <h3 key="card-text-3">Renewables</h3>
+                                    <h3>Renewables</h3>
                                 </div>
                             </div>
                             <div class="card shadow face face2">
                               <div class="card-body">
-                                  <div class="content">
+                                  <div class="content card-indust">
                                     <img src="img/icon-img/3.png">
-                                    <h3 key="card-text-3">Renewables</h3>
+                                    <h3>Renewables</h3>
                                     <p key="card-text-3-p">Wind and Solar energy background with international track record and  engineering expertise.</p>
                                   </div>
                               </div>
-                              <div class="card-footer text-center">
+                              <div class="card-footer text-center card-indust">
                                   <a key="btn-more" href="https://www.alcaalrenovables.com/" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                               </div>
                             </div>
@@ -262,18 +265,18 @@
                             <div class="face face1">
                                 <div class="content">
                                     <img src="img/icon-img/4.png">
-                                    <h3 key="card-text-4">New ventures</h3>
+                                    <h3>New ventures</h3>
                                 </div>
                             </div>
                             <div class="card shadow face face2">
                               <div class="card-body">
-                                  <div class="content">
+                                  <div class="content card-indust">
                                     <img src="img/icon-img/4.png">
-                                    <h3 key="card-text-4">New ventures</h3>
+                                    <h3>New ventures</h3>
                                     <p key="card-text-p">Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.</p>
                                   </div>
                               </div>
-                              <div class="card-footer text-center">
+                              <div class="card-footer text-center card-indust">
                                   <a key="btn-more" href="NewVentures.html" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                               </div>
                             </div>
@@ -288,111 +291,99 @@
         </div>        
     </section>
 
-        <!-- Section Slider movil-->
-        <section class="section slider d-block d-xl-none">
-
-              <div class="section__entry section__entry--center"></div>
-              <input type="radio" name="slider" id="slide-1" class="slider__radio" checked>
-              <input type="radio" name="slider" id="slide-2" class="slider__radio">
-              <input type="radio" name="slider" id="slide-3" class="slider__radio">
-              <input type="radio" name="slider" id="slide-4" class="slider__radio">
-
-              <div class="slider__holder card-indust">
-                <!-- Slider__item -->
-                <label for="slide-1" class="slider__item slider__item--1 card card-movi">
-                  <div class="content-hover-2">
-                      <div class="card-body face face2">
-                        <div class="content">
-                          <img src="img/icon-img/1.png">
-                            <h3 key="card-text-1">Agribusiness</h3>
-                            <p key="card-text-1-mov"><span>360° advisory capabilities</span> including, land, crop, forestry and industrial plants development in more than 10 countries.</p>
-                        </div>
-                      </div>
-                      <div class="card-footer">
-                          <a key="btn-more" href="http://www.alcaalagro.com/" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+    <section class="contenedor d-block d-xl-none">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card card-movi">
+              <div class="content-hover-2">
+                  <div class="card-body face face2">
+                      <div class="content card-indust">
+                         <img src="img/icon-img/1.png">
+                           <h3 key="card-text-1">Agribusiness</h3>
+                           <p key="card-text-1-mov"><span>360° advisory capabilities</span> including, land, crop, forestry and industrial plants development in more than 10 countries.</p>
                       </div>
                   </div>
-                </label>
-
-                <!-- Slider__item -->
-                <label for="slide-2" class="slider__item slider__item--2 card card-movi">
-                  <div class="content-hover-2">
+                  <div class="card-footer card-indust">
+                     <a key="btn-more" href="http://www.alcaalagro.com/" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide card card-movi">
+            <div class="content-hover-2">
                       <div class="card-body face face2">
-                        <div class="content">
+                        <div class="content card-indust">
                           <img src="img/icon-img/2.png">
                             <h3 key="card-text-2">International<br>commerce</h3>
                             <p key="card-text-2-mov" class="mt-0"><span>Over 10 years experience</span> providing a wide range of quality products with consistent excellent service and delivery.</p>
                         </div>
                       </div>
-                      <div class="card-footer">
+                      <div class="card-footer card-indust">
                           <a key="btn-more" href="Audana.html" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                       </div>
                   </div>
-                </label>
-
-                <!-- Slider__item -->
-                <label for="slide-3" class="slider__item slider__item--3 card card-movi">
-                  <div class="content-hover-2">
+          </div>
+          <div class="swiper-slide card card-movi">
+            <div class="content-hover-2">
                       <div class="card-body face face2">
-                        <div class="content">
+                        <div class="content card-indust">
                           <img src="img/icon-img/3.png">
-                            <h3 key="card-text-3">Renewables</h3>
+                            <h3>Renewables</h3>
                             <p key="card-text-3-mov">Wind and Solar energy background with international track record and  engineering expertise.</p>
                         </div>
                       </div>
-                      <div class="card-footer">
+                      <div class="card-footer card-indust">
                           <a key="btn-more" href="https://www.alcaalrenovables.com/" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                       </div>
                   </div>
-                </label>
-
-                <!-- Slider__item -->
-                <label for="slide-4" class="slider__item slider__item--4 card card-movi">
-                  <div class="content-hover-2">
+          </div>
+          <div class="swiper-slide card card-movi">
+            <div class="content-hover-2">
                       <div class="card-body face face2">
-                        <div class="content">
+                        <div class="content card-indust">
                           <img src="img/icon-img/4.png">
-                            <h3 key="card-text-4">New ventures</h3>
+                            <h3>New ventures</h3>
                             <p key="card-text-4-mov">Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.</p>
                         </div>
                       </div>
-                      <div class="card-footer">
+                      <div class="card-footer card-indust">
                           <a key="btn-more" href="NewVentures.html" class="btn uza-btn btn-2"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                       </div>
                   </div>
-                </label>
-              </div>
-              <!-- Slider Holder -->
-        </section> 
-        <!-- Section Slider movil-->
+          </div>
+        </div>
+      </div>
+  </section>
 
     <!-- ***** About Us Area End ***** -->
 
 
     <!-- ***** al-gro Area Start ***** -->
-    <section class="al-gro-area Know-group">
+    <section class="al-gro-area">
         <div class="al-group-area">        
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-md-6 col-lg-5">
                     <div>
-                      <div class="contact-heading"><h5 key="sub-title">ALCAAL GROUP<span class="line-primary line-p"></span></h5></div>
-                        <div class="nl-content mb-5"><h2 key="text-title">Know all the main companies in the group</h2></div>
+                      <div class="contact-heading"><h5 data-aos="fade-right">ALCAAL GROUP</h5><span data-aos="fade-left" data-aos-delay="200" class="line ag"></span></div>
+                        <div class="nl-content mb-5 Know-group">
+                          <h2 key="text-title"  data-aos="fade-right" data-aos-delay="300">Know all the main companies in the group</h2></div>
                     </div>
                 </div>
             </div>
         </div>
         </div> 
 
-        <div class="slideshow-container d-none d-xl-block">
+        <div class="slideshow-container d-none d-xl-block" >
               <div class="mySlides fade-ca">
                    <div class="card-deck" style="margin-right: -6rem;">                     
                     <!-- card -->
                     <div class="slide-group active bg img1 sl-a">                        
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-1"><h4>Alcaal</h4><h3>Agroindustrial</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Agro.svg" alt=""></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn Know-group">
                           <a href="http://www.alcaalagro.com/" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>
@@ -400,9 +391,10 @@
                     <!-- card -->
                     <div class="slide-group bg img2 sl-a">
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-2"><h4>Alcaal</h4><h3>Renewables</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Renov.svg" alt=""></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn Know-group">
                           <a href="https://www.alcaalrenovables.com/" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>         
@@ -414,20 +406,48 @@
                     <!-- card -->
                     <div class="slide-group active bg img3 sl-b">                        
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-3"><h4>Alcaal</h4><h3>International<br>Commerse</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Audana.svg" alt=""></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
-                          <a href="Philosophy.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        <div class="view-more-btn Know-group">
+                          <a href="Audana.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>
 
                     <!-- card -->
                     <div class="slide-group bg img4 sl-b">
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-4"><h4>Alcaal</h4><h3>New Ventures</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/RealE.svg" alt=""></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn Know-group">
                           <a href="NewVentures.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>         
+                    </div>
+              </div>
+              <div class="mySlides fade-ca">
+                   <div class="card-deck" style="margin-right: -6rem;">                     
+                    <!-- card -->
+                    <div class="slide-group active bg img5 sl-c">                        
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/IEP.svg" alt="">
+                        </div>
+                        <!-- View More -->
+                        <div class="view-more-btn Know-group">
+                          <a href="http://iep.global/" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
+                        </div>
+                    </div>
+
+                    <!-- card -->
+                    <div class="slide-group bg img6 sl-c">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Altana.svg" alt=""></div>
+                        <!-- View More -->
+                        <div class="view-more-btn Know-group">
+                          <a href="https://www.altana3d.com/" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>         
                     </div>
@@ -442,7 +462,9 @@
                     <!-- card -->
                     <div class="col Knows-cards bg img1">                        
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-1"><h4>Alcaal</h4><h3>Agroindustrial</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Agro.svg" alt="">
+                        </div>
                         <!-- View More -->
                         <div class="view-more-btn">
                           <a href="http://www.alcaalagro.com/"><i class="icon_plus"></i></a>
@@ -452,7 +474,8 @@
                     <!-- card -->
                     <div class="col Knows-cards bg img2">
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-2"><h4>Alcaal</h4><h3>Renewables</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Renov.svg" alt=""></div>
                         <!-- View More -->
                         <div class="view-more-btn">
                           <a href="https://www.alcaalrenovables.com/"><i class="icon_plus"></i></a>
@@ -462,22 +485,46 @@
                     <!-- card -->
                     <div class="col Knows-cards bg img3">
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-3-a"><h4>Alcaal</h4><h3>International Commerse</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Audana.svg" alt=""></div>
                         <!-- View More -->
                         <div class="view-more-btn">
-                          <a href="Philosophy.html"><i class="icon_plus"></i></a>
+                          <a href="Audana.html"><i class="icon_plus"></i></a>
                         </div>
                     </div>
 
                     <!-- card -->
                     <div class="col Knows-cards bg img4">
                         <!-- Overlay Effect -->
-                        <div class="overlay-effect" key="card-text-title-4"><h4>Alcaal</h4><h3>New Ventures</h3></div>
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/RealE.svg" alt=""></div>
                         <!-- View More -->
                         <div class="view-more-btn">
                           <a href="NewVentures.html"><i class="icon_plus"></i></a>
                         </div>
-                    </div>           
+                    </div>
+
+                    <!-- card -->
+                    <div class="col Knows-cards bg img5">                        
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/IEP.svg" alt=""></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="http://iep.global/"><i class="icon_plus"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- card -->
+                    <div class="col Knows-cards bg img6">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                          <img class="img-logo" src="img/img-logo/Altana.svg" alt=""></div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                          <a href="https://www.altana3d.com/"><i class="icon_plus"></i></a>
+                        </div>
+                    </div>         
                 </div>  
             </div>
         </div>
@@ -485,21 +532,21 @@
     <!-- ***** al-gro Area End ***** -->
 
           
-    <!-- ***** Services Area Start ***** -->
-    <section class="uza-services-area section-padding-80-0 section-2016">
+    <!-- ***** 2016 Area Start ***** -->
+    <section class="area-2016 section-padding-80-0">
         <div class="container mr-0">            
             <div class="row align-items-center" style="display: flow-root;">
                 <img src="img/bg-img/2016.png" class="img-ear">
                 <div class="content-card-2016">
-                    <div class="card-ear">
-                    <div class="contact-heading">
-                        <h5 key="sub-title">A SERIOUS BUSINESS PARTNER<span class="line-primary line-p"></span></h5>
+                    <div class="card-ear" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-heading section-2016">
+                        <h5 key="sub-title">A SERIOUS BUSINESS PARTNER</h5><span class="line b"></span>
                     </div>
-                    <div class="nl-content">
+                    <div class="nl-content section-2016">
                         <h2 key="text-title">Since 2016, ALCAAL has participated in 
                         <span>transactions worth US$ 100 MM.</span><br> 
                         Traded volume in <span>2017 has been 10,000 tons.</span></h2>
-                        <a href="#" class="btn uza-btn btn-2 btn-bold marg-2016" key="btn-2016">
+                        <a href="About-group.html" class="btn uza-btn btn-2 btn-bold marg-2016" key="btn-2016">
                             <i class="arrow_right-up icon-zise mr-2"></i>COMPANY PROFILE</a>
                     </div>
                     </div>
@@ -511,12 +558,12 @@
             <svg viewbox="0 0 1300 250" xmlns="http://www.w3.org/2000/svg"><path d="M 0 250 C 200 150 350 100 650 150 Q 1050 200 1300 50 L 1300 250 L 0 250 Z"></svg>
         </div>
     </section>
-    <!-- ***** Services Area End ***** -->
+    <!-- ***** 2016 Area End ***** -->
   
     </div><!-- ***** fin background gray ***** -->
     
     <!-- ***** OUR PHILOSOPHY Area Start ***** -->
-    <section class="uza-portfolio-area philosophy">
+    <section class="uza-portfolio-area">
         <div class="our-phil-area">        
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -525,14 +572,14 @@
                 </div> 
 
                 <div class="col-12 col-md-6 col-lg-12">
-                    <div class="contact-heading">
-                        <h5 key="sub-title">OUR PHILOSOPHY<span class="line-primary line-p"></span></h5>
+                    <div class="contact-heading philosophy">
+                        <h5 key="sub-title"data-aos="fade-right">OUR PHILOSOPHY</h5><span class="line p" data-aos="fade-left" data-aos-delay="200"></span>
                     </div>
-                    <div class="nl-content mb-80">
-                        <h2 key="text-title">Corporate social responsibility is <br>in the core of the <span class="span-infini">Groups philosophy.</span></h2>
-                        <div>
-                            <p key="text-pa-1">Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.</p><br>
-                            <p key="text-pa-2" class="d-none d-xl-flex">We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.</p>
+                    <div class="nl-content philosophy mb-80">
+                        <h2 data-aos="fade-right" data-aos-delay="200" key="text-title">Corporate social responsibility is <br>in the core of the <span class="span-infini">Groups philosophy.</span></h2>
+                        <div class="philosophy">
+                            <p data-aos="fade-right" data-aos-delay="300" key="text-pa-1">Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.</p><br>
+                            <p data-aos="fade-right" data-aos-delay="400" key="text-pa-2" class="d-none d-xl-flex">We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.</p>
                         </div>
                     </div>
                 </div>      
@@ -547,7 +594,7 @@
                         <!-- Overlay Effect -->
                         <div class="overlay-effect"><h4 key="card-text-1">Education</h4></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn philosophy">
                           <a href="Philosophy.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>
@@ -557,7 +604,7 @@
                         <!-- Overlay Effect -->
                         <div class="overlay-effect"><h4 key="card-text-2">Social Rehabilitation</h4></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn philosophy">
                           <a href="Philosophy.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>
@@ -567,7 +614,7 @@
                         <!-- Overlay Effect -->
                         <div class="overlay-effect"><h4 key="card-text-3">Health</h4></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn philosophy">
                           <a href="Philosophy.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>
@@ -577,7 +624,7 @@
                         <!-- Overlay Effect -->
                         <div class="overlay-effect"><h4 key="card-text-4">Tools for life</h4></div>
                         <!-- View More -->
-                        <div class="view-more-btn">
+                        <div class="view-more-btn philosophy">
                           <a href="Philosophy.html" key="btn-more"><i class="arrow_right-up icon-zise mr-2"></i>MORE INFO</a>
                         </div>
                     </div>           
@@ -590,23 +637,23 @@
     <!-- ***** OUR PHILOSOPHY Area End ***** -->
 
     <!-- ***** Blog Area Start ***** -->
-    <section class="uza-blog-area our-team">        
+    <section class="uza-blog-area">        
         <div class="container">
             <div class="row align-items-center justify-content-between">          
                 <!-- img -->
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <img src="img/bg-img/img-1.jpg" class="img-post">
                     <img src="img/core-img/figura-1.png" class="img-figura-1">
                 </div>        
                 <!-- Content -->
                 <div class="col-12 col-md-6 col-lg-6 padd-team">
-                    <div class="contact-heading">
-                        <h5 key="sub-title">OUR TEAM<span class="line-primary"></span></h5>
+                    <div class="contact-heading our-team">
+                        <h5 key="sub-title" data-aos="fade-right">OUR TEAM</h5><span class="line" data-aos="fade-left" data-aos-delay="200"></span>
                     </div>
-                    <div class="nl-content mb-80">
-                        <h2 key="text-title">ALCAAL has +30 professionals</h2>
-                        <p key="text-pa">with diverse  backgrounds including engineering, business, investment banking and  investment management.</p>
-                        <a href="About-team.html" class="btn uza-btn btn-2 btn-bold mbot" key="btn-team">
+                    <div class="nl-content mb-80 our-team">
+                        <h2 data-aos="fade-left" data-aos-delay="200" key="text-title">ALCAAL has +30 professionals</h2>
+                        <p data-aos="fade-left" data-aos-delay="300" key="text-pa">with diverse  backgrounds including engineering, business, investment banking and  investment managem ent.</p>
+                        <a data-aos="fade-left" data-aos-delay="400" href="About-team.html" class="btn uza-btn btn-2 btn-bold mbot" key="btn-team">
                             <i class="arrow_right-up icon-zise mr-2"></i>MEET THE TEAM</a>
                     </div>
                 </div>                             
@@ -616,18 +663,18 @@
     <!-- ***** Blog Area End ***** -->
 
     <!-- ***** Newsletter Area Start ***** -->
-    <section class="uza-newsletter-area locations">
+    <section class="uza-newsletter-area">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <!-- Newsletter Content -->
                 <div class="col-12 col-md-6 col-lg-6">
-                    <div class="contact-heading">
-                        <h5 key="sub-title">LOCATIONS<span class="line-primary"></span></h5>
+                    <div class="contact-heading locations">
+                        <h5 key="sub-title" data-aos="fade-right">LOCATIONS</h5><span class="line" data-aos="fade-left" data-aos-delay="200"></span>
                     </div>
-                    <div class="nl-content mb-80">
-                        <h2 key="text-title">Founded in 2016.</h2>
-                        <p key="text-pa">ALCAAL  has been expanding continuously reaching 4 out of the 6 continents through its offices and representatives.</p>
-                        <a href="Locations.html" class="btn uza-btn btn-2 btn-bold mbot" key="btn-lo">
+                    <div class="nl-content mb-80 locations">
+                        <h2 data-aos="fade-right" data-aos-delay="200" key="text-title">Founded in 2016.</h2>
+                        <p data-aos="fade-right" data-aos-delay="300" key="text-pa">ALCAAL  has been expanding continuously reaching 4 out of the 6 continents through its offices and representatives.</p>
+                        <a data-aos="fade-right" data-aos-delay="400" href="Locations.html" class="btn uza-btn btn-2 btn-bold mbot" key="btn-lo">
                             <i class="arrow_right-up icon-zise mr-2"></i>LOCATIONS</a>
 
                     </div>
@@ -638,7 +685,7 @@
     <!-- ***** Newsletter Area End ***** -->
     
     <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-area footer" style="background-image: url('img/bg-img/footer.svg')">
+    <footer class="footer-area" style="background-image: url('img/bg-img/footer.svg')">
         <div class="container">
             <div class="row">
                 <!-- Contact Footer Widget -->
@@ -646,8 +693,8 @@
                   <div class="single-footer-widget">
                     <div class="card border-0 shadow-lg">
                         <div class="card-body uza-contact-form">
-                            <div class="contact-heading">
-                            <h5 key="sub-title">CONTACT<span class="line-primary line-c"></span></h5>
+                            <div class="contact-heading footer">
+                            <h5 key="sub-title">CONTACT</h5><span class="line c"></span>
                             </div>
                             <form id="contact_form" action="#" method="post">
                             <div class="row">
@@ -671,6 +718,10 @@
                                 </div>
                             </div>
                         </form>                            
+                        </div>
+                        <div class="contact-Thakns">
+                            <h2>Thank you very much!</h2>
+                            <p>The form was sent successfully, In the near future we will contact.</p>
                         </div>                        
                     </div>
                   </div>
@@ -681,16 +732,16 @@
                     <img src="img/logo-w-t.png" alt="" width="180">
                     <div class="single-footer-widget mt-3">                        
                         <!-- Footer Content -->
-                        <div class="footer-content mb-15">
-                            <p key="info-text-1" class="sub">Postal Address</p>
+                        <div class="footer-content mb-15 footer">
+                            <p key="hola-1" class="sub">Postal Address</p>
                             <p>Av. del Libertador 7766 • 12  01<br> C1429BMX • CABA • Argentina</p>
                         </div>
                         <div class="footer-content mb-15">
                             <p class="sub">E-mail</p>
                             <p>info@alcaal.com</p>
                         </div>
-                        <div class="footer-content mb-15">
-                            <p key="info-text-2" class="sub">Phone</p>
+                        <div class="footer-content mb-15 footer">
+                            <p key="hola-2" class="sub">Phone</p>
                             <p>+ 54 11 4519 0477</p>
                         </div>
                     </div>
@@ -699,7 +750,7 @@
                 <!-- Single Footer Widget -->
                 <div class="col-6 col-sm-6 col-lg-4">
                     <div class="single-footer-widget">
-                        <div class="footer-social-info mb-4">
+                        <div class="footer-social-info mb-4" style="opacity: 0; visibility: hidden;">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
@@ -709,19 +760,19 @@
                         <!-- Nav -->
                         <nav>
                             <ul class="our-link">
-                                <li><a key="link-text-1" href="Group-companies.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Group companies</a></li>
-                                <li><a key="link-text-2" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>About</a></li>
-                                <li><a key="link-text-3" href="Philosophy.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>CSR</a></li>
-                                <li><a key="link-text-4" href="Locations.html">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Locations Contact</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-1" href="Group-companies.html">Group companies</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-2" href="About-group.html">About</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-3" href="Philosophy.html">CSR</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-4" href="Locations.html">Locations Contact</a></li>
                                 <br>
-                                <li><a key="link-text-5" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Terms and Conditions</a></li>
-                                <li><a key="link-text-6" href="#">
-                                    <i class="arrow_right-up icon-zise mr-2"></i>Privacy Policy</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-5" href="terms-and-conditions.html">Terms and Conditions</a></li>
+                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-6" href="privacy-policy.html">Privacy Policy</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -751,7 +802,26 @@
     
     <script src="js/default-assets/active.js"></script>
     <script src="js/validator-contact.js"></script>
-    
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 900,
+        once: false
+      });
+
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 
 </html>

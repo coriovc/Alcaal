@@ -24,6 +24,10 @@
 
 .item-team{
     padding: 1rem;
+
+    &.it-4{
+        margin: 0 3rem;
+    }
     
     @media #{$breakpoint-xs} {
         padding: 0;              

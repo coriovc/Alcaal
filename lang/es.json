@@ -42,21 +42,18 @@
 
     ".Know-group":{
         "text-title" : "Conoce las principales compañías del grupo.",
-        "card-text-title-1" : "<h4>Alcaal</h4><h3>Agroindustria</h3>",
-        "card-text-title-3" : "<h4>Alcaal</h4><h3>Trade <br> internacional</h3>",
-        "card-text-title-3-a" : "<h4>Alcaal</h4><h3>Trade internacional</h3>",
         "btn-more" : "MÁS INFO"
     },
 
     ".section-2016":{
-        "sub-title" : "UN SOCIO COMERCIAL SERIO",
+        "sub-title" : "A SERIOUS BUSINESS PARTNER",
         "text-title" : "Desde 2016, ALCAAL ha participado en <span>transacciones por valor de US $ 100 MM.</span><br> El volumen comercializado en <span>2017 ha sido de 10.000 toneladas.</span>",
-        "btn-2016" : "COMPANY PROFILE" 
+        "btn-2016" : "PERFIL DE LA COMPAÑÍA" 
     },
 
     ".philosophy":{
         "sub-title" : "NUESTRA FILOSOFÍA",
-        "text-title" : "La responsabilidad social corporativa es <br> el núcleo de la filosofía de <span class=\"span-infini\">Grupos. </span>",
+        "text-title" : "La responsabilidad social corporativa es <br> el núcleo de la <span>filosofía de Grupos.</span>",
         "text-pa-1" : "Más de 10 años de actividades y proyectos de voluntariado y sostenibilidad en África y Argentina.",
         "text-pa-2" : "Desarrollamos y promovemos soluciones sostenibles inspiradas en nuestros valores fundamentales de integridad, diversidad y solidaridad que dan forma a nuestra cultura corporativa y política de responsabilidad social.",
         "btn-more" : "MÁS INFO"
@@ -80,10 +77,8 @@
     ".footer":{
         "sub-title" : "CONTACTO",
         "btn-send" : "Enviar",
-
-        "info-text-1" : "Postal Address",
-        "info-text-2" : "Phone",
-
+        "hola-1" : "Direccion postal",
+        "hola-2" : "Teléfono",
         "link-text-1" : "El grupo",
         "link-text-2" : "Acerca nuestro",
         "link-text-3" : "Sustentabilidad",

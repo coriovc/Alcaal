@@ -1,4 +1,5 @@
 $( document ).ready( function () {
+    var $successMsg = $(".contact-Thakns");
       $( "#contact_form" ).validate( {
         rules: {
           name: "required",
@@ -15,6 +16,9 @@ $( document ).ready( function () {
           message: "Please write a message."
           },
         errorElement: "span",
+        submitHandler: function() {
+          $successMsg.addClass('show');
+        },
         errorPlacement: function ( error, element ) {
           // Add the `invalid-feedback` class to the error element
           error.addClass( "invalid-feedback" );
@@ -26,5 +30,6 @@ $( document ).ready( function () {
         unhighlight: function (element, errorClass, validClass) {
           $( element ).addClass("is-valid").removeClass("is-invalid");
         }
+        
       } );
     } );

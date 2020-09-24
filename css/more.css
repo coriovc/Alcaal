@@ -296,28 +296,6 @@
   border-color: transparent;
 }
 
-.line-primary{
-    position: absolute;
-    margin: 1.5% 0 0 3%;
-    height: 3px;
-    background-color: #E7CF49;
-    width: 40px;
-    border-radius: 20%;
-}
-
-.line-c{
-  margin-top: 2%;
-}
-
-.line-p{
-  margin-top: 0.5rem;
-  margin-left: 0.8rem;
-}
-
-.line-a{
-  margin-top: 0.5rem;
-  margin-left: 0.9rem;
-}
 
 .line-a-group{
     background-color: #CFCFCF;
@@ -381,9 +359,9 @@
 
 
 .img-figura-2{
-    width: 549px;
+    width: 450px;
     position: absolute;
-    margin: -7% 0 0 0;
+    margin: -4.5rem 0 0 0;
     right: 0;
 }
 
@@ -950,13 +928,13 @@
 .content-hover-2 .face.face2{
     opacity: 1;
     z-index: 50;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem;
 }
 
 .content-hover-2 .card-footer{
     border: 0;
     background-color: #ffffff;
-    padding: 2rem 0 2rem 2rem;
+    padding:2rem;
 }
 
 .content-hover-2 .card-footer .uza-btn{
@@ -966,3 +944,47 @@
 .content-hover-2:hover .face.face2{
     opacity: 1;
 }
+
+
+    .contenedor{
+      height: 60%;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      overflow: hidden;
+      padding: 2rem 0;
+    }
+
+    .swiper-container {
+      width: 280px;
+      height: 100%;
+      overflow: visible !important;
+    }
+
+    .swiper-slide {
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      -webkit-transform: scale(0.92);
+      -ms-transform: scale(0.92);
+      transform: scale(0.92);
+    }
+
+    .swiper-slide-active{
+        -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }

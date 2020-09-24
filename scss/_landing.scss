@@ -1,0 +1,52 @@
+/* :: landing */
+.area-2016{
+	overflow-x: hidden;
+}
+
+.contact-heading{
+	display: flex;
+
+	h5{
+		color:$c-gray;
+	}
+	
+	span{
+		margin-top: 1.4%;
+    	margin-left: 5.5rem;
+
+    	&.line{
+		    position: absolute;
+		    height: 3px;
+		    background-color: $primary;
+		    width: 40px;
+		    border-radius: 20%;
+		}
+
+		&.c{
+			margin-top: 2.1%;
+   			margin-left: 4.7rem;
+		}
+
+		&.p{
+			margin-top: 0.5rem;
+  			margin-left: 8rem;
+		}
+
+		&.b{
+			margin-top: 0.4rem;
+    		margin-left: 12rem;
+		}
+
+		&.ag{
+			margin-top: 0.55rem;
+    		margin-left: 7rem;
+		}
+
+		&.a{
+			margin-top: 0.5rem;
+  			margin-left: 0.9rem;
+		}
+
+	}
+
+}
