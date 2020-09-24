@@ -117,18 +117,9 @@
                 color:$primary;
             }
 
-            @media #{$breakpoint-lg} {
-                font-size: 30px;
-            }
-
-            @media #{$breakpoint-md} {
-                font-size: 24px;
-                margin-bottom: 6%;
-            }
-
             @media #{$breakpoint-xs} {
-                font-size: 22px;
-                margin-bottom: 6%;
+                font-size: 25px;
+                margin-bottom: 15%;
             }
         }
 
@@ -137,7 +128,8 @@
             margin-bottom: 0;
             line-height: 2;
             padding-top: 1%;
-            font-size: 18px;
+            font-size: 20px;
+            margin-right: 3rem;
 
             span{
                 color:$primary;
@@ -148,16 +140,9 @@
             }
             }
 
-            @media #{$breakpoint-lg} {
-                font-size: 14px;
-            }
-
-            @media #{$breakpoint-md} {
-                font-size: 12px;
-            }
-
             @media #{$breakpoint-xs} {
-                font-size: 14px;
+                font-size: 18px;
+                margin-right: 0;
             }
         }
     }

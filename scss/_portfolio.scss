@@ -566,39 +566,13 @@
             filter: brightness(0) invert(1);
         }
 
-        h4 {
-            @include transition-duration(500ms);
-            font-weight: 400;
-            color: #ffffff;
-            font-size: 1.5rem;
-            line-height: 1;
-            margin-bottom: 0;
-
-            @media #{$breakpoint-xs} {
-                font-size: 25px;
-            }
+        .img-real-E{
+            width: 180px;
+            content: url('./img/img-logo/RealE-white.svg');
         }
-
-        h3 {
-            @include transition-duration(500ms);
-            font-weight: 600;
-            color: #ffffff;
-            font-size: 2rem;
-            line-height: 1;
-            margin-bottom: 0;
-
-            @media #{$breakpoint-xs} {
-                font-size: 25px;
-            }
-        }
-
-        p {
-            margin-bottom: 0;
-            line-height: 1.6;
-            
-            @media #{$breakpoint-xs} {
-                font-size: 14px;
-            }
+        .img-altana{
+            width: 180px;
+            content: url('./img/img-logo/Altana-white.svg');
         }
     }
 
@@ -645,7 +619,23 @@
             filter: brightness(1) invert(0);
             margin-top: 2.5rem;
             width: 250px;
-        }
+            }
+
+            .img-real-E{
+            margin-top: 2.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            content: url('./img/img-logo/RealE.svg');
+            }
+
+            .img-altana{
+            margin-top: 2.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            content: url('./img/img-logo/Altana.svg');
+            }
 
             h4 {
                 color: $c-gray;

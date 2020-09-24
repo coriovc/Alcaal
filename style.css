@@ -967,37 +967,26 @@ input:focus {
       margin-bottom: 2%; }
       .about-area .nl-content h2 span {
         color: #E7CF49; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .about-area .nl-content h2 {
-          font-size: 30px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .about-area .nl-content h2 {
-          font-size: 24px;
-          margin-bottom: 6%; } }
       @media only screen and (max-width: 767px) {
         .about-area .nl-content h2 {
-          font-size: 22px;
-          margin-bottom: 6%; } }
+          font-size: 25px;
+          margin-bottom: 15%; } }
     .about-area .nl-content p {
       margin-bottom: 0;
       line-height: 2;
       padding-top: 1%;
-      font-size: 18px; }
+      font-size: 20px;
+      margin-right: 3rem; }
       .about-area .nl-content p span {
         color: #E7CF49;
         font-weight: 800; }
         @media only screen and (max-width: 767px) {
           .about-area .nl-content p span {
             font-weight: 400; } }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .about-area .nl-content p {
-          font-size: 14px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .about-area .nl-content p {
-          font-size: 12px; } }
       @media only screen and (max-width: 767px) {
         .about-area .nl-content p {
-          font-size: 14px; } }
+          font-size: 18px;
+          margin-right: 0; } }
   @media only screen and (max-width: 767px) {
     .about-area {
       padding-bottom: 7rem;
@@ -3049,36 +3038,12 @@ textarea.form-control {
     .Knows-cards .overlay-effect .img-logo {
       width: 180px;
       filter: brightness(0) invert(1); }
-    .Knows-cards .overlay-effect h4 {
-      -webkit-transition-duration: 500ms;
-      -o-transition-duration: 500ms;
-      transition-duration: 500ms;
-      font-weight: 400;
-      color: #ffffff;
-      font-size: 1.5rem;
-      line-height: 1;
-      margin-bottom: 0; }
-      @media only screen and (max-width: 767px) {
-        .Knows-cards .overlay-effect h4 {
-          font-size: 25px; } }
-    .Knows-cards .overlay-effect h3 {
-      -webkit-transition-duration: 500ms;
-      -o-transition-duration: 500ms;
-      transition-duration: 500ms;
-      font-weight: 600;
-      color: #ffffff;
-      font-size: 2rem;
-      line-height: 1;
-      margin-bottom: 0; }
-      @media only screen and (max-width: 767px) {
-        .Knows-cards .overlay-effect h3 {
-          font-size: 25px; } }
-    .Knows-cards .overlay-effect p {
-      margin-bottom: 0;
-      line-height: 1.6; }
-      @media only screen and (max-width: 767px) {
-        .Knows-cards .overlay-effect p {
-          font-size: 14px; } }
+    .Knows-cards .overlay-effect .img-real-E {
+      width: 180px;
+      content: url("./img/img-logo/RealE-white.svg"); }
+    .Knows-cards .overlay-effect .img-altana {
+      width: 180px;
+      content: url("./img/img-logo/Altana-white.svg"); }
   .Knows-cards .view-more-btn a {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -3116,6 +3081,18 @@ textarea.form-control {
         filter: brightness(1) invert(0);
         margin-top: 2.5rem;
         width: 250px; }
+      .Knows-cards:focus .overlay-effect .img-real-E, .Knows-cards:hover .overlay-effect .img-real-E {
+        margin-top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        content: url("./img/img-logo/RealE.svg"); }
+      .Knows-cards:focus .overlay-effect .img-altana, .Knows-cards:hover .overlay-effect .img-altana {
+        margin-top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        content: url("./img/img-logo/Altana.svg"); }
       .Knows-cards:focus .overlay-effect h4, .Knows-cards:hover .overlay-effect h4 {
         color: #5D5C60;
         margin-left: 4rem; }
