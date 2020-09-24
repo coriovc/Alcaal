@@ -400,7 +400,7 @@ input:focus {
     line-height: 3.1; }
 
 .btn {
-  box-shadow: none; }
+  box-shadow: none !important; }
 
 /* :: Group companies */
 .group-companies-area {
@@ -1314,34 +1314,32 @@ input:focus {
 .area-2016 {
   overflow-x: hidden; }
 
-.contact-heading {
-  display: flex; }
-  .contact-heading h5 {
-    color: #5D5C60; }
-  .contact-heading span {
-    margin-top: 1.4%;
-    margin-left: 5.5rem; }
-    .contact-heading span.line {
-      position: absolute;
-      height: 3px;
-      background-color: #E7CF49;
-      width: 40px;
-      border-radius: 20%; }
-    .contact-heading span.c {
-      margin-top: 2.1%;
-      margin-left: 4.7rem; }
-    .contact-heading span.p {
-      margin-top: 0.5rem;
-      margin-left: 8rem; }
-    .contact-heading span.b {
-      margin-top: 0.4rem;
-      margin-left: 12rem; }
-    .contact-heading span.ag {
-      margin-top: 0.55rem;
-      margin-left: 7rem; }
-    .contact-heading span.a {
-      margin-top: 0.5rem;
-      margin-left: 0.9rem; }
+.contact-heading h5 {
+  color: #5D5C60; }
+.contact-heading span {
+  margin-top: 1.4%;
+  margin-left: 1rem; }
+  .contact-heading span.line {
+    position: absolute;
+    height: 3px;
+    background-color: #E7CF49;
+    width: 40px;
+    border-radius: 20%; }
+  .contact-heading span.c {
+    margin-top: 2.1%;
+    margin-left: 1rem; }
+  .contact-heading span.p {
+    margin-top: 0.5rem;
+    margin-left: 1rem; }
+  .contact-heading span.b {
+    margin-top: 0.4rem;
+    margin-left: 1rem; }
+  .contact-heading span.ag {
+    margin-top: 0.55rem;
+    margin-left: 1rem; }
+  .contact-heading span.a {
+    margin-top: 0.5rem;
+    margin-left: 0.9rem; }
 
 /* :: legal */
 .legal-area {

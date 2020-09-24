@@ -146,7 +146,7 @@
           <div class="row align-items-center">
             <!-- Welcome Text -->
             <div class="col">
-              <div class="welcome-text text-center welcome-area-l" data-aos="fade-up">
+              <div class="welcome-text text-center welcome-area-l" data-aos="zoom-in-up" data-aos-delay="400">
                 <h2 key="section_title">We know<br>your industry.</h2>                 
               </div>
             </div>
@@ -365,7 +365,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-md-6 col-lg-5">
                     <div>
-                      <div class="contact-heading"><h5 data-aos="fade-right">ALCAAL GROUP</h5><span data-aos="fade-left" data-aos-delay="200" class="line ag"></span></div>
+                      <div class="contact-heading"><h5 data-aos="fade-right">ALCAAL GROUP<span class="line ag"></span></h5></div>
                         <div class="nl-content mb-5 Know-group">
                           <h2 key="text-title"  data-aos="fade-right" data-aos-delay="300">Know all the main companies in the group</h2></div>
                     </div>
@@ -540,7 +540,7 @@
                 <div class="content-card-2016">
                     <div class="card-ear" data-aos="fade-left" data-aos-delay="200">
                     <div class="contact-heading section-2016">
-                        <h5 key="sub-title">A SERIOUS BUSINESS PARTNER</h5><span class="line b"></span>
+                        <h5 key="sub-title">A SERIOUS BUSINESS PARTNER<span class="line b"></span></h5>
                     </div>
                     <div class="nl-content section-2016">
                         <h2 key="text-title">Since 2016, ALCAAL has participated in 
@@ -573,7 +573,7 @@
 
                 <div class="col-12 col-md-6 col-lg-12">
                     <div class="contact-heading philosophy">
-                        <h5 key="sub-title"data-aos="fade-right">OUR PHILOSOPHY</h5><span class="line p" data-aos="fade-left" data-aos-delay="200"></span>
+                        <h5 key="sub-title"data-aos="fade-right">OUR PHILOSOPHY<span class="line p"></span></h5>
                     </div>
                     <div class="nl-content philosophy mb-80">
                         <h2 data-aos="fade-right" data-aos-delay="200" key="text-title">Corporate social responsibility is <br>in the core of the <span class="span-infini">Groups philosophy.</span></h2>
@@ -648,7 +648,7 @@
                 <!-- Content -->
                 <div class="col-12 col-md-6 col-lg-6 padd-team">
                     <div class="contact-heading our-team">
-                        <h5 key="sub-title" data-aos="fade-right">OUR TEAM</h5><span class="line" data-aos="fade-left" data-aos-delay="200"></span>
+                        <h5 key="sub-title" data-aos="fade-right">OUR TEAM<span class="line"></span></h5>
                     </div>
                     <div class="nl-content mb-80 our-team">
                         <h2 data-aos="fade-left" data-aos-delay="200" key="text-title">ALCAAL has +30 professionals</h2>
@@ -669,7 +669,7 @@
                 <!-- Newsletter Content -->
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="contact-heading locations">
-                        <h5 key="sub-title" data-aos="fade-right">LOCATIONS</h5><span class="line" data-aos="fade-left" data-aos-delay="200"></span>
+                        <h5 key="sub-title" data-aos="fade-right">LOCATIONS<span class="line"></span></h5>
                     </div>
                     <div class="nl-content mb-80 locations">
                         <h2 data-aos="fade-right" data-aos-delay="200" key="text-title">Founded in 2016.</h2>
@@ -694,7 +694,7 @@
                     <div class="card border-0 shadow-lg">
                         <div class="card-body uza-contact-form">
                             <div class="contact-heading footer">
-                            <h5 key="sub-title">CONTACT</h5><span class="line c"></span>
+                            <h5 key="sub-title">CONTACT<span class="line c"></span></h5>
                             </div>
                             <form id="contact_form" action="#" method="post">
                             <div class="row">
@@ -809,8 +809,9 @@
   <script>
     AOS.init({
         easing: 'ease-in-out-sine',
+        offset: 100,
         duration: 900,
-        once: false
+        once: true
       });
 
     var swiper = new Swiper('.swiper-container', {
