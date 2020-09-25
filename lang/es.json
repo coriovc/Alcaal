@@ -3,8 +3,8 @@
     ".classynav-lang":{
         "item-1" : "El Grupo",
         "item-2" : "Acerca nuestro",
-            "item-2-a" : "The Group",
-            "item-2-b" : "Our Team",
+            "item-2-a" : "El grupo",
+            "item-2-b" : "Nuestro equipo",
         "item-3" : "Sustentabilidad",
         "item-4" : "Ubicación",
         "item-5" : "Contacto",
@@ -37,55 +37,198 @@
         "card-text-4-p" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
         "card-text-4-mov" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
 
-        "btn-more" : "MÁS INFO"
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
     },
 
     ".Know-group":{
         "text-title" : "Conoce las principales compañías del grupo.",
-        "btn-more" : "MÁS INFO"
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
     },
 
     ".section-2016":{
-        "sub-title" : "A SERIOUS BUSINESS PARTNER",
+        "sub-title" : "UN SOCIO COMERCIAL SERIO<span class=\"line b\"></span>",
         "text-title" : "Desde 2016, ALCAAL ha participado en <span>transacciones por valor de US $ 100 MM.</span><br> El volumen comercializado en <span>2017 ha sido de 10.000 toneladas.</span>",
-        "btn-2016" : "PERFIL DE LA COMPAÑÍA" 
+        "btn-2016" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>PERFIL DE LA COMPAÑÍA" 
     },
 
     ".philosophy":{
-        "sub-title" : "NUESTRA FILOSOFÍA",
-        "text-title" : "La responsabilidad social corporativa es <br> el núcleo de la <span>filosofía de Grupos.</span>",
+        "sub-title" : "NUESTRA FILOSOFÍA <span class=\"line p\"></span>",
+        "text-title" : "La responsabilidad social corporativa es <br> el núcleo de la <span class=\"span-infini\">filosofía de Grupos.</span>",
         "text-pa-1" : "Más de 10 años de actividades y proyectos de voluntariado y sostenibilidad en África y Argentina.",
         "text-pa-2" : "Desarrollamos y promovemos soluciones sostenibles inspiradas en nuestros valores fundamentales de integridad, diversidad y solidaridad que dan forma a nuestra cultura corporativa y política de responsabilidad social.",
-        "btn-more" : "MÁS INFO"
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
     },
 
     ".our-team":{
-        "sub-title" : "Nuestro Equipo",
+        "sub-title" : "Nuestro Equipo<span class=\"line\"></span>",
         "text-title" : "ALCAAL tiene +30 profesionales",
         "text-pa" : "con diversos antecedentes que incluyen ingeniería, negocios, banca de inversión y gestión de inversiones.",
-        "btn-team" : "CONOCE AL EQUIPO"
+        "btn-team" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCE AL EQUIPO"
     },
 
     ".locations":{
-        "sub-title" : "UBICACIÓN",
+        "sub-title" : "UBICACIÓN<span class=\"line\"></span>",
         "text-title" : "Fundada en 2016.",
         "text-pa" : "ALCAAL se ha expandido continuamente alcanzando 4 de los 6 continentes.",
-        "btn-lo" : "Ubicación"
+        "btn-lo" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Ubicación"
     },
 
 
     ".footer":{
-        "sub-title" : "CONTACTO",
+        "sub-title" : "CONTACTO <span class=\"line c\"></span>",
         "btn-send" : "Enviar",
+        "name" :"<input type=\"text\" class=\"form-control\" name=\"name\" placeholder=\"Ingrese su nombre completo\">",
+        "email" :"<input type=\"email\" class=\"form-control\" name=\"email\" placeholder=\"Introduce tu correo electrónico\">",
+        "message" :"<textarea class=\"form-control\" name=\"message\" rows=\"5\" cols=\"80\" placeholder=\"Mensaje\"></textarea>",
+        
+        "gracias":"¡Muchas gracias!",
+        "parrafo-gracias":"El formulario fue enviado con éxito, en un futuro próximo nos contactaremos.",
+
         "hola-1" : "Direccion postal",
         "hola-2" : "Teléfono",
+
         "link-text-1" : "El grupo",
         "link-text-2" : "Acerca nuestro",
         "link-text-3" : "Sustentabilidad",
         "link-text-4" : "Ubicación Contacto",
         "link-text-5" : "Términos y Condiciones",
         "link-text-6" : "Política de privacidad"
+    },
+
+     ".group-comp":{
+        "parrafo" : "Conoce las principales compañías del grupo.<br>Ofrecemos soluciones innovadoras en los sectores de Agronegocios, Comercio Internacional y Energías Renovables con foco en mercados emergentes."
+    },
+
+    ".about-group-hero":{
+        "text-title" : "El<br>grupo",
+        "text-title-M" : "El grupo",
+        "parrafo-1" : "ALCAAL GROUP ofrece servicios en los sectores de Agronegocios, <br>Comercio Internacional, Energías Renovables y <br>Nuevos Negocios; ofreciendo así una solución integral combinando su experiencia<br>en los cuatros sectores.",
+        "parrafo-2" : "ALCAAL GROUP ofrece servicios en los sectores de Agronegocios, Comercio Internacional, Energías Renovables y Nuevos Negocios; ofreciendo así una solución integral combinando su experiencia en los cuatros sectores."
+    },
+
+    ".about-group-1":{
+        "sub-title" : "ACERCA DE <span class=\"line a\"></span>",
+        "text-title" : "Desde 2016, ALCAAL ha participado en <span>transacciones por valor de US $ 100 MM.</span><br>El volumen comercializado en <span>2017 ha sido de 10.000 toneladas.</span>",
+        "parrafo-1" : "<span>Nuestro equipo</span> altamente calificado tiene una vasta experiencia en todas y cada una de las etapas de la ejecución de los proyectos. Con oficinas en Buenos Aires, Montevideo, Luanda, San Petersburgo y Dubai, y representantes con una amplia gama de antecedentes y habilidades, ALCAAL Group tiene la capacidad de combinar la cobertura global con la experiencia local para brindar las mejores soluciones a medida para satisfacer las necesidades de nuestros clientes.",
+        "parrafo-2" : "<span>Nuestro equipo altamente especializadas</span> con antecedentes únicos y un historial probado.<br><span>Cobertura global</span> a través de sus oficinas en América Latina y Medio Oriente y a través de sus representantes en Europa y África .",
+        "btn-1" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCE EL GRUPO",
+
+        "parrafo-3" : "Su <span>estructura ágil</span> y su red global incomparable permiten que <span>ALCAAL</span> aborde situaciones complejas y entregue rápidamente, prácticamente en todas partes.",
+        "parrafo-4" : "<span>Soluciones integradas</span> basadas en la combinación de experiencia en los sectores de Agronegocios, Servicios Financieros, Renovables y Comercio Internacional.",
+        "parrafo-5" : "ALCAAL tiene acceso rápido a capital y capacidad para proporcionar financiamiento de deuda y capital.",
+        "title-2" : "ENTREGAMOS RESULTADOS.",
+        "btn-2" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>HABLEMOS"
+    },
+
+    ".g-team":{
+        "title-d" : "Nuestro<br>Equipo",
+        "title-m" : "Nuestro Equipo"
+    },
+
+    ".philo-area-lang":{
+        "text-title-D" : "Nuestra<br>filosofia",
+        "parrafo-D" : "Más de 10 años de actividades y proyectos de voluntariado<br> y sostenibilidad en África y Argentina.",
+        "text-title-M" : "Nuestra filosofia",
+        "parrafo-M" : "Más de 10 años de actividades y proyectos de voluntariado y sostenibilidad en África y Argentina."
+    },
+
+    ".philosophy-area-lang":{
+        "text-title-1" : "Sustentabilidad",
+        "parrafo-1" : "Creemos en conducir negocios que aporten al desarrollo sustentable  de nuestro entorno. Para ello, trabajamos alineados con el cuidado de la comunidad y del medio ambiente: alentamos a colaboradores, proveedores y clientes a abrazar nuestros principios.",
+        "text-title-2" : "Nuestros valores, en acción",
+        "parrafo-2" : "Apoyamos iniciativas con impacto positivo en educación, empleo, vivienda, salud y desarrollo comunitario. Nuestra estrategia acompaña los Objetivos de Desarrollo Sostenible (ODS) definidos por Naciones Unidas para el milenio."
+    },
+
+    ".philo-lang-1":{
+        "text-title" : "Fin de la pobreza",
+        
+        "sub-title-1" : "Techo para mi pais (roof for my country)",
+        "parrafo-1" : "ONG presente en 19 países de América Latina. Busca superar la situación de pobreza que viven millones de personas en asentamientos populares a través de programas para la mejora de vivienda precaria.",
+        
+        "sub-title-2" : "El Camino a Jericó",
+        "parrafo-2" : "Organización argentina orientada a asistir a personas en situación de calle a través de hogares de tránsito y hospedaje donde proveen acompañamiento terapéutico y de salud para lograr su recuperación.",
+        
+        "sub-title-3" : "Fundación Progresar",
+        "parrafo-3" : "ONG argentina, presente en Derqui, Pilar. Orientada al desarrollo personal y social a través de programas de educación y de fortalecimiento de la comunidad."
+    },
+
+    ".philo-lang-2":{
+        "text-title" : "Educación de calidad",
+        
+        "sub-title-1" : "Residuca Foundation",
+        "parrafo-1" : "ONG argentina que busca disminuir la deserción escolar de la escuela secundaria a través de programas de desarrollo personal y de formación de empleo.",
+        
+        "sub-title-2" : "Fundación Patagonia",
+        "parrafo-2" : "ONG argentina para la formación agro técnica en zonas rurales.",
+        
+        "sub-title-3" : "ESCUELA RIO MUERTO",
+        "parrafo-3" : "Establecimiento educativo en Chaco que recibe alumnos de zonas rurales y vulnerables.",
+
+        "sub-title-4" : "COLEGIO MADRE TERESA",
+        "parrafo-4" : "Institución educativa que recibe a alumnos en condiciones de vulnerabilidad y realiza un acompañamiento integral a sus familias."
+    },
+
+    ".philo-lang-3":{
+        "text-title" : "Salud y bienestar",
+        
+        "sub-title-1" : "HOSPITAL SOLIDARIO AUSTRAL",
+        "parrafo-1" : "Hospital de alta complejidad construido para hacer frente a la emergencia sanitaria del COVID-19. Posee capacidad de 60 camas de terapia intensiva y está destinado a personas vulnerables sin cobertura médica.",
+        
+        "sub-title-2" : "Covid 19 Donation",
+        "parrafo-2" : "Fabricación y donación de 4000 elementos de protección personal (mascaras) para distintas instituciones públicas y privadas del país. De esta manera se pudo proteger al personal de salud para que pueda hacer su trabajo de una manera más segura",
+        "parrafo-2-a" : "Production and donation of 4000 personal protective equipment (face masks) for both public and private institutions in Argentina. In this way, we were able to protect health personnel and improve their safety during work."
+    },
+
+    ".loc-hero-lang":{
+        "text-title-D" : "Alrededor<br>del mundo",
+        "text-title-M" : "Alrededor del mundo",
+        "parrafo" : "ALCAAL se ha ido expandiendo continuamente llegando a 4 de los 6 continentes a través de sus oficinas en Buenos Aires, Montevideo, Luanda, San Petersburgo y Dubai."
+    },
+
+    ".loc-lang":{
+        "sub-title" : "UBICACIONES <span class=\"line a\"></span>",
+        "sub-title-1" : "Direccion postal",
+        "sub-title-2" : "Teléfono"
+    },
+
+    ".loc-lang-contact":{
+        "sub-title" : "CONTACTO <span class=\"line c\"></span>",
+        "title":"¿Con qué podemos ayudar?",
+        "name" : "Nombre completo",
+        "email" : "Correo electrónico",
+        "phone" : "Número de teléfono",
+        "message" : "Mensaje",
+        "btn-send" : "ENVIAR",
+        "gracias" : "¡Gracias!",
+        "parrafo-gra" : "Recibimos tu mensaje,<br> te contactaremos pronto."
+    },
+
+    ".New-ven-hero":{
+        "sub-title" : "La unidad de impresión 3D de Alcaal, ALTANA 3D, es la más grande<br>Centro de Fabricación Aditiva en Argentina."
+    },
+
+    ".New-ven-area":{
+        "parrafo-1" : "ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.<br> Altana 3D trabaja bajo demanda, utilizando tecnología de punta para proporcionar herramientas innovadoras que benefician tanto a los profesionales de la salud como a los pacientes. Su actividad principal es la producción de modelos anatómicos aplicados en la planificación quirúrgica.",
+        "parrafo-2" : "Alcaal Real Estate proporciona soluciones de desarrollo, construcción y administración para bienes raíces comerciales y residenciales de alto nivel. Brindamos soluciones integrales llave en mano para inversores institucionales y de alto patrimonio en Latam y África."
+    },
+
+    ".audana-hero":{
+        "sub-title" : "Comercio internacional y servicios financieros."
+    },
+
+    ".audana-area":{
+        "title" : "<span>Más de 10 años de experiencia</span> brindando una amplia gama de productos de calidad con excelente servicio y entrega.",
+        "parrafo-1" : "Unidad comercial privada que ha logrado el respeto de los socios basado en la consistencia y eficiencia de sus servicios.",
+        "parrafo-2" : "Presente en todas las actividades relacionadas con el comercio internacional: compras, ventas, almacenamiento, agencia exclusiva, trámites administrativos, logísticos y soporte, incluyendo la capacidad para ejecutar sofisticadas operaciones de comercio internacional.",
+        
+        "list-1" : "<i class=\"icon_check\"></i>Comprometidos con brindar servicios y productos de alta calidad.",
+        "list-2" : "<i class=\"icon_check\"></i>Cubriendo la mayoría de los canales comerciales.",
+        "list-3" : "<i class=\"icon_check\"></i>Las entregas a tiempo son nuestra prioridad.",
+        "list-4" : "<i class=\"icon_check\"></i>Trabajando en estrecha colaboración con las principales líneas navieras y proveedores para garantizar una distribución eficaz.",
+        "list-5" : "<i class=\"icon_check\"></i>Satisfacer las necesidades diarias específicas de cada mercado que atravesamos.",
+        "list-6" : "<i class=\"icon_check\"></i>Creando oportunidades de negocio rentables para nuestros clientes."
     }
+
 
 
 }

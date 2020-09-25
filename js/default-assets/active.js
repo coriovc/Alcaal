@@ -257,6 +257,7 @@
             }, 2000, 'easeInOutExpo');
             event.preventDefault();
         });
+
     });
 
     $(function(){
@@ -291,6 +292,12 @@
            $(".meg-b").toggleClass("mega-item").siblings().removeClass("mega-item");
             });
 
+     });
+
+    $(function(){
+        $("#lang").click(
+                function () { $(".as").addClass("lateral-text-esp"); }, 
+                function () { $(".as").removeClass("lateral-text-esp"); });
      });
 
 })(jQuery);

@@ -45,7 +45,8 @@
 body {
   font-family: "Baloo Chettan 2", cursive;
   font-weight: 400;
-  font-size: 14px; }
+  font-size: 14px;
+  overflow-x: hidden; }
 
 h1,
 h2,

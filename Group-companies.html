@@ -137,13 +137,13 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** group companies Area Start ***** -->
-    <section class="group-companies-area group-comp">     
+    <section class="group-companies-area">     
         <div class="container mb-50">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-10">                    
-                    <div class="a-content mb-80">
-                        <h2 key="text-title">Alcaal Group</h2>                        
-                        <p key="parrafo">Know all the main companies in the group.<br>We offer services in the Agribusiness, International Commerce, Renewables and New Ventures sectors.</p>
+                    <div class="a-content mb-80 group-comp">
+                        <h2 data-aos="fade-right" >Alcaal Group</h2>                        
+                        <p  data-aos="fade-right" data-aos-delay="200" key="parrafo">Know all the main companies in the group.<br>We offer services in the Agribusiness, International Commerce, Renewables and New Ventures sectors.</p>
                     </div>
                 </div>      
             </div>        
@@ -232,34 +232,34 @@
                     <div class="card border-0 shadow-lg">
                         <div class="card-body uza-contact-form">
                             <div class="contact-heading footer">
-                            <h5 key="sub-title">CONTACT</h5><span class="line c"></span>
+                            <h5 key="sub-title">CONTACT<span class="line c"></span></h5>
                             </div>
                             <form id="contact_form" action="#" method="post">
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter your full name" key="">
+                                <div class="col-lg-12 footer">
+                                    <div class="form-group" key="name">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter your full name">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter your email" key="">
+                                <div class="col-lg-12 footer">
+                                    <div class="form-group" key="email">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter your email">
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="5" cols="80" placeholder="Message" key=""></textarea>
+                                <div class="col-12 footer">
+                                    <div class="form-group" key="message">
+                                        <textarea class="form-control" name="message" rows="5" cols="80" placeholder="Message"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 footer">
                                     <button type="submit" class="btn uza-btn btn-2" key="btn-send">SEND</button>
                                 </div>
                             </div>
                         </form>                            
                         </div>
-                        <div class="contact-Thakns">
-                            <h2>Thank you very much!</h2>
-                            <p>The form was sent successfully, In the near future we will contact.</p>
+                        <div class="contact-Thakns footer">
+                            <h2 key="gracias">Thank you very much!</h2>
+                            <p key="parrafo-gracias">The form was sent successfully, In the near future we will contact.</p>
                         </div>                        
                     </div>
                   </div>
@@ -322,7 +322,9 @@
 
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
-    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    <script src="js/langChange.js"></script>
+    <script src="js/jquery.min.js"></script>    
     <script src="js/jquery.easing.min.js"></script>    
     <script src="js/jquery.validate.js"></script>
 

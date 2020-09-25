@@ -16,6 +16,7 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 <body id="top">
     
@@ -142,14 +143,14 @@
           <div class="row about-area-hero">
           <!--Desk--------------------->
           <div class="d-none d-xl-flex">
-            <div class="col-lg-4"><div class="about-text text-right"><h2 key="text-title">The<br>group</h2></div></div>
-            <div class="col parrafo"><div class="about-text text-left">
+            <div class="col-lg-4"><div class="about-text text-right about-group-hero"><h2 key="text-title">The<br>group</h2></div></div>
+            <div class="col parrafo"><div class="about-text text-left about-group-hero">
                 <p key="parrafo-1">ALCAAL offers services in the Agribusiness,<br>International Commerce, Renewables and New<br>Ventures sectors and also combines its expertise in<br> all four to  offer integrated soluctions to our clients.</p></div></div>
           </div>
           <!--Movil--------------------->
           <div class="d-inline-block d-xl-none">
-            <div class="col-lg-4"><div class="about-text"><h2 key="text-title-M">The group</h2></div></div>
-            <div class="col parrafo"><div class="about-text">
+            <div class="col-lg-4"><div class="about-text about-group-hero"><h2 key="text-title-M">The group</h2></div></div>
+            <div class="col parrafo"><div class="about-text about-group-hero">
                 <p key="parrafo-2">ALCAAL offers services in the Agribusiness, International Commerce, Renewables and New Ventures sectors and also combines its expertise in all four to  offer integrated soluctions to our clients.</p></div></div>
           </div>
           </div>          
@@ -159,12 +160,12 @@
     <!-- ***** Welcome Area End ***** -->
 
     <!-- ***** about Area Start ***** -->
-    <section class="about-area about-group-1">        
+    <section class="about-area">        
         <div class="container">
-            <div class="contact-heading">
+            <div class="contact-heading about-group-1">
                 <h5 key="sub-title">ABOUT<span class="line a"></span></h5>
             </div>
-            <div class="nl-content mb-40">
+            <div class="nl-content mb-40 about-group-1">
                 <h2 key="text-title">Since 2016, ALCAAL has participated in <span>transactions worth US$ 100 MM.</span><br>Traded volume in <span>2017 has been 10,000 tons.</span></h2>
                 
                 <p key="parrafo-1" class="d-none d-xl-block"><span>Team</span> of highly specialized individuals with unique backgrounds and proven track record. With offices in Buenos Aires, Montevideo, Luanda, St. Petersburg and Dubai, and representatives with a diverse range of backgrounds and skills, ALCAAL Group has the ability to combine global coverage with local expertise to provide best of breed tailormade solutions to meet our clients needs.</p>
@@ -174,7 +175,7 @@
                 <a key="btn-1" href="#" class="btn uza-btn btn-2 btn-bold my-4">
                     <i class="arrow_right-up icon-zise mr-2"></i>MEET THE TEAM</a>
 
-              <div class="with-p">
+              <div class="with-p about-group-1">
                 <p key="parrafo-3">Its <span>agile structure</span> and unmatched global network allows <span>ALCAAL</span> to address complex situations and deliver fast, practically everywhere.</p>
 
                 <p key="parrafo-4"><span>Integrated solutions</span> based on combining expertise in the  Agribusiness, Financial Services, Renewables and International Commerce sectors.</p>
@@ -202,34 +203,34 @@
                     <div class="card border-0 shadow-lg">
                         <div class="card-body uza-contact-form">
                             <div class="contact-heading footer">
-                            <h5 key="sub-title">CONTACT</h5><span class="line c"></span>
+                            <h5 key="sub-title">CONTACT<span class="line c"></span></h5>
                             </div>
                             <form id="contact_form" action="#" method="post">
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter your full name" key="">
+                                <div class="col-lg-12 footer">
+                                    <div class="form-group" key="name">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter your full name">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter your email" key="">
+                                <div class="col-lg-12 footer">
+                                    <div class="form-group" key="email">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter your email">
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="5" cols="80" placeholder="Message" key=""></textarea>
+                                <div class="col-12 footer">
+                                    <div class="form-group" key="message">
+                                        <textarea class="form-control" name="message" rows="5" cols="80" placeholder="Message"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 footer">
                                     <button type="submit" class="btn uza-btn btn-2" key="btn-send">SEND</button>
                                 </div>
                             </div>
                         </form>                            
                         </div>
-                        <div class="contact-Thakns">
-                            <h2>Thank you very much!</h2>
-                            <p>The form was sent successfully, In the near future we will contact.</p>
+                        <div class="contact-Thakns footer">
+                            <h2 key="gracias">Thank you very much!</h2>
+                            <p key="parrafo-gracias">The form was sent successfully, In the near future we will contact.</p>
                         </div>                        
                     </div>
                   </div>
@@ -289,10 +290,12 @@
         </div>
     </footer>
     <!-- ***** Footer Area End ***** -->
-    
+
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
-    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    <script src="js/langChange.js"></script>
+    <script src="js/jquery.min.js"></script>    
     <script src="js/jquery.easing.min.js"></script>    
     <script src="js/jquery.validate.js"></script>
 
@@ -305,6 +308,16 @@
     <!-- Active js -->
     <script src="js/default-assets/active.js"></script>
     <script src="js/validator-contact.js"></script>
+    <script src="js/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init({
+          easing: 'ease-in-out-sine',
+          duration: 900,
+          once: false
+        });
+    </script>
 </body>
 
 </html>

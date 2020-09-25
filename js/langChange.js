@@ -8,7 +8,7 @@ $(document).on('click', '.langClass', function() {
   setLanguage(lang);
   if(lang == "es"){
     $(this).html("ENG");
-    $(this).attr('data-lang','en');
+    $(this).attr('data-lang','en');    
   }else{
     $(this).html("ESP");
     $(this).attr('data-lang','es');
