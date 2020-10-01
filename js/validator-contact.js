@@ -16,8 +16,9 @@ $( document ).ready( function () {
           message: "Please write a message."
           },
         errorElement: "span",
-        submitHandler: function() {
+        submitHandler: function(form) {          
           $successMsg.addClass('show');
+          $(form).ajaxSubmit();  
         },
         errorPlacement: function ( error, element ) {
           // Add the `invalid-feedback` class to the error element
@@ -33,3 +34,4 @@ $( document ).ready( function () {
         
       } );
     } );
+
