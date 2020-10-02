@@ -1502,6 +1502,10 @@ input:focus {
   .single-footer-widget .our-link {
     position: relative;
     z-index: 1; }
+    .single-footer-widget .our-link li .copyright {
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: 400; }
     .single-footer-widget .our-link li.footer {
       display: flex; }
       .single-footer-widget .our-link li.footer i {

@@ -144,8 +144,14 @@
         z-index: 1;
 
         li {
+            
+            .copyright{
+                font-size: 16px;
+                color: $white;
+                font-weight: 400; 
+            }
 
-          &.footer{
+            &.footer{
                 display:flex;
 
             i{
