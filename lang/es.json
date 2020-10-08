@@ -3,8 +3,8 @@
     ".classynav-lang":{
         "item-1" : "El Grupo",
         "item-2" : "Acerca nuestro",
-            "item-2-a" : "El grupo",
-            "item-2-b" : "Nuestro equipo",
+            "item-2-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>El grupo",
+            "item-2-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Nuestro equipo",
         "item-3" : "Sustentabilidad",
         "item-4" : "Ubicación",
         "item-5" : "Contacto",
@@ -30,12 +30,9 @@
         "card-text-2-mov" : "<span>Más de 10 años de experiencia</span brindando una amplia gama de productos de calidad con excelente servicio y entrega.",
 
         
-        "card-text-3-p" : "Energía eólica y solar con trayectoria internacional y experiencia en ingeniería.",
-        "card-text-3-mov" : "Energía eólica y solar con trayectoria internacional y experiencia en ingeniería.",
-
+        "card-text-3" : "Energía eólica y solar con trayectoria internacional y experiencia en ingeniería.",
         
-        "card-text-4-p" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
-        "card-text-4-mov" : "La unidad de Impresión 3D de Alcaal, ALTANA 3D, es el centro de Fabricación Aditiva más grande de Argentina enfocado en el campo médico.",
+        "card-text-4" : "Nueva Línea de negocios. Soluciones de construcción de inmuebles comerciales y residenciales",
 
         "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
     },
@@ -155,7 +152,7 @@
     ".philo-lang-2":{
         "text-title" : "Educación de calidad",
         
-        "sub-title-1" : "Residuca Foundation",
+        "sub-title-1" : "Reciduca Foundation",
         "parrafo-1" : "ONG argentina que busca disminuir la deserción escolar de la escuela secundaria a través de programas de desarrollo personal y de formación de empleo.",
         
         "sub-title-2" : "Fundación Patagonia",

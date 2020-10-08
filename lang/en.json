@@ -3,8 +3,8 @@
     ".classynav-lang":{
         "item-1" : "Group companies",
         "item-2" : "About",
-            "item-2-a" : "The Group",
-            "item-2-b" : "Our Team",
+            "item-2-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>The Group",
+            "item-2-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Our Team",
         "item-3" : "CSR",
         "item-4" : "Locations",
         "item-5" : "Contact",
@@ -30,11 +30,9 @@
         "card-text-2-mov" : "<span>Over 10 years experience</span> providing a wide range of quality products with consistent excellent service and delivery.",
 
        
-        "card-text-3-p" : "Wind and Solar energy background with international track record and  engineering expertise.",
-        "card-text-3-mov" : "Wind and Solar energy background with international track record and  engineering expertise.",
+        "card-text-3" : "Wind and Solar energy background with international track record and  engineering expertise.",
 
-        "card-text-4-p" : "Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.",
-        "card-text-4-mov" : "Alcaal 3D Printing unit, ALTANA 3D, is the largest Additive Manufacturing center in Argentina.",
+        "card-text-4" : "New Business line. Comercial and Residential RE Construction solutions.",
 
         "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MORE INFO"
     },
@@ -157,7 +155,7 @@
     ".philo-lang-2":{
         "text-title" : "Quality education",
         
-        "sub-title-1" : "Residuca Foundation",
+        "sub-title-1" : "Reciduca Foundation",
         "parrafo-1" : "Argentine NGO that seeks to reduce high school dropouts through personal development and job training programs.",
         
         "sub-title-2" : "Fundación Patagonia",
