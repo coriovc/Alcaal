@@ -258,7 +258,7 @@
             event.preventDefault();
         });
 
-        $(document).on('click', '.scrollsuave', function(event) {
+        $(document).on('click', '.page-scroll', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top

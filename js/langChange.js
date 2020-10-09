@@ -18,10 +18,10 @@ $(document).on('click', '.langClass', function() {
 function setLanguage(lang) {
     localStorage.setItem('language', lang);
     language = localStorage.getItem('language');
-    getLanguage()
+    getLanguage(language);
 }
 
-function getLanguage() {
+function getLanguage(language) {
     (language == null) ? setLanguage(default_lang) : false;
     $.ajax({
         url: 'lang/' + language + '.json',
