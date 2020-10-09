@@ -1,13 +1,13 @@
 {   
     
     ".classynav-lang":{
-        "item-1" : "Group companies",
-        "item-2" : "About",
+        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Group companies",
+        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>About",
             "item-2-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>The Group",
             "item-2-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Our Team",
-        "item-3" : "CSR",
-        "item-4" : "Locations",
-        "item-5" : "Contact",
+        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>CSR",
+        "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Locations",
+        "item-5" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contact",
         "btn-lang" : "ESP"
     },
 
@@ -53,7 +53,7 @@
 
     ".philosophy":{
         "sub-title" : "OUR PHILOSOPHY <span class=\"line p\"></span>",
-        "text-title" : "Corporate social responsability is <br>in the core of the <span class=\"span-infini\">Groups philosophy.</span>",
+        "text-title" : "Corporate social responsability is <br>in the core of the <span class=\"span-infini\">Group's philosophy.</span>",
         "text-pa-1" : "Over 10 years of Voluntary services and Sustainability activities and projects in Africa and Argentina.",
         "text-pa-2" : "We develop and promote sustainable solutions inspired by our core values of integrity, diversity and solidarity which shape our corporate culture and social responsibility policy.",
         "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MORE INFO"

@@ -1,13 +1,13 @@
 {   
     
     ".classynav-lang":{
-        "item-1" : "El Grupo",
-        "item-2" : "Acerca nuestro",
+        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>El Grupo",
+        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Acerca nuestro",
             "item-2-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>El grupo",
             "item-2-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Nuestro equipo",
-        "item-3" : "Sustentabilidad",
-        "item-4" : "Ubicación",
-        "item-5" : "Contacto",
+        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Sustentabilidad",
+        "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Ubicación",
+        "item-5" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contacto",
         "btn-lang" : "ENG"
     },
 
