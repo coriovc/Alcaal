@@ -1,7 +1,7 @@
 // Cambios de lenguaje 
 
 var language = localStorage.getItem('language');
-var default_lang = 'es';
+var default_lang = 'en';
 
 $(document).on('click', '.langClass', function() {
   var lang = $(this).attr('data-lang');
@@ -38,6 +38,9 @@ function getLanguage(language) {
 }
 
 $(document).ready(function () {
-    if (language != null && language !== default_lang)
+    if (language != null && language !== default_lang){
         getLanguage(language);
+    }else{
+        getLanguage(default_lang);
+    }
 });
